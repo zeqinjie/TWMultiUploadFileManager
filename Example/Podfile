@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TWMultiUploadFileManager_Example' do
+  pod 'TWMultiUploadFileManager', :path => '../'
+  pod 'Then'
+  pod 'TZImagePickerController', '~> 3.6.4'
+  pod 'SJVideoPlayer'
+  pod 'SnapKit'
+  target 'TWMultiUploadFileManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

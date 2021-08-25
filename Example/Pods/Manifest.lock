@@ -1,0 +1,114 @@
+PODS:
+  - Masonry (1.1.0)
+  - Queuer (2.1.1)
+  - SJBaseVideoPlayer (3.6.3):
+    - Masonry
+    - SJBaseVideoPlayer/AVPlayer (= 3.6.3)
+    - SJBaseVideoPlayer/Common (= 3.6.3)
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/AVPlayer (3.6.3):
+    - Masonry
+    - SJBaseVideoPlayer/Common
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/Common (3.6.3):
+    - Masonry
+    - SJBaseVideoPlayer/ResourceLoader
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/ResourceLoader (3.6.3):
+    - Masonry
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJUIKit/AttributesFactory (0.0.0.57):
+    - SJUIKit/AttributesFactory/Deprecated (= 0.0.0.57)
+    - SJUIKit/AttributesFactory/UIKitText (= 0.0.0.57)
+  - SJUIKit/AttributesFactory/Deprecated (0.0.0.57)
+  - SJUIKit/AttributesFactory/UIKitText (0.0.0.57)
+  - SJUIKit/ObserverHelper (0.0.0.57)
+  - SJUIKit/Queues (0.0.0.57)
+  - SJUIKit/SQLite3 (0.0.0.57):
+    - SJUIKit/SQLite3/Core (= 0.0.0.57)
+    - SJUIKit/SQLite3/Protocol (= 0.0.0.57)
+    - YYModel
+  - SJUIKit/SQLite3/Core (0.0.0.57):
+    - SJUIKit/SQLite3/Protocol
+    - YYModel
+  - SJUIKit/SQLite3/Protocol (0.0.0.57):
+    - YYModel
+  - SJVideoPlayer (3.3.2):
+    - SJBaseVideoPlayer (>= 3.6.0)
+    - SJVideoPlayer/Common (= 3.3.2)
+    - SJVideoPlayer/ControlLayers (= 3.3.2)
+    - SJVideoPlayer/ResourceLoader (= 3.3.2)
+  - SJVideoPlayer/Common (3.3.2):
+    - Masonry
+    - SJBaseVideoPlayer (>= 3.6.0)
+    - SJUIKit/AttributesFactory
+    - SJVideoPlayer/ResourceLoader
+  - SJVideoPlayer/ControlLayers (3.3.2):
+    - SJBaseVideoPlayer (>= 3.6.0)
+    - SJVideoPlayer/Common
+  - SJVideoPlayer/ResourceLoader (3.3.2):
+    - SJBaseVideoPlayer (>= 3.6.0)
+  - SnapKit (4.2.0)
+  - Then (2.7.0)
+  - TWMultiUploadFileManager (0.1.0):
+    - Queuer (~> 2.1.1)
+    - TWMultiUploadFileManager/TWMultiUpload (= 0.1.0)
+    - TWMultiUploadFileManager/TWQueueManager (= 0.1.0)
+  - TWMultiUploadFileManager/TWMultiUpload (0.1.0):
+    - Queuer (~> 2.1.1)
+    - TWMultiUploadFileManager/TWQueueManager
+  - TWMultiUploadFileManager/TWQueueManager (0.1.0):
+    - Queuer (~> 2.1.1)
+  - TZImagePickerController (3.6.4)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - SJVideoPlayer
+  - SnapKit
+  - Then
+  - TWMultiUploadFileManager (from `../`)
+  - TZImagePickerController (~> 3.6.4)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - Queuer
+    - SJBaseVideoPlayer
+    - SJUIKit
+    - SJVideoPlayer
+    - SnapKit
+    - Then
+    - TZImagePickerController
+    - YYModel
+
+EXTERNAL SOURCES:
+  TWMultiUploadFileManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Queuer: 65c5f6b821417bc62da23d63d570ec9d22bee4de
+  SJBaseVideoPlayer: 99957bb0d0fe1ccb8d6710bd9db9f52640c56a32
+  SJUIKit: 55e5ae2beee094abab143f45addc23690883040b
+  SJVideoPlayer: 3a271ff92c7b9d611c537655fd1edcbae18b8587
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+  TWMultiUploadFileManager: a705b69a661b18bb272fcc4d29f56e1775bf5a21
+  TZImagePickerController: 1cc39ec0454d6e94d0397418953164d7aa631719
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 5296ed3f0543ce586d788735a9f830d92c4e46d9
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module TWMultiUploadFileManager {
+  umbrella header "TWMultiUploadFileManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

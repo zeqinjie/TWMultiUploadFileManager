@@ -1,0 +1,42 @@
+{
+  "name": "TWMultiUploadFileManager",
+  "version": "0.1.0",
+  "summary": "A short description of TWMultiUploadFileManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhengzeqin/TWMultiUploadFileManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhengzeqin": "zhengzeqin@addcn.com"
+  },
+  "source": {
+    "git": "https://github.com/zhengzeqin/TWMultiUploadFileManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TWMultiUploadFileManager/Classes/**/*",
+  "dependencies": {
+    "Queuer": [
+      "~> 2.1.1"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "TWMultiUpload",
+      "source_files": "TWMultiUploadFileManager/Classes/TWMultiUpload/*.{swift,h,m}",
+      "dependencies": {
+        "TWMultiUploadFileManager/TWQueueManager": [
+
+        ]
+      }
+    },
+    {
+      "name": "TWQueueManager",
+      "source_files": "TWMultiUploadFileManager/Classes/TWQueueManager/*.{swift,h,m}"
+    }
+  ]
+}
