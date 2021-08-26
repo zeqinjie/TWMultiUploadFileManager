@@ -4,7 +4,7 @@
 //
 //  Created by zhengzeqin on 08/17/2021.
 //  Copyright (c) 2021 zhengzeqin. All rights reserved.
-//
+//  📢：采用 S3 SDK 调用都由后端执行，前端通过后端预签名后的 URL 直接进行文件分段上传
 
 import UIKit
 import TWMultiUploadFileManager
@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     fileprivate struct Macro {
         static let videoMaximumDuration: TimeInterval = 600 // 限制10分钟
         static let videoMaximumSize: UInt = 500 * 1024 * 1024 // 限制 500 M 大小
+        static let dirPathName: String = "com.salehousevideoupload.upload" // 目标文件夹名称
     }
     
     /// 上传配置对象
@@ -59,6 +60,11 @@ class ViewController: UIViewController {
         return btn
     }()
     
+    /// 记录最后一次选择的视频的 url
+    fileprivate var url: URL?
+    /// 记录最后一次选择的视频的 asset
+    fileprivate var asset: PHAsset?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .black
@@ -67,6 +73,7 @@ class ViewController: UIViewController {
     }
     
     // MARK: - Action
+    /// 选择影片
     fileprivate func selectPhotoAction(animated: Bool = true) {
         let imagePicker: TZImagePickerController! = TZImagePickerController(maxImagesCount: 9, delegate: self)
         imagePicker.allowPickingVideo = true
@@ -82,6 +89,23 @@ class ViewController: UIViewController {
         }
         present(imagePicker, animated: animated, completion: nil)
     }
+    
+    /// 上传影片
+    fileprivate func uploadVideoAction() {
+        guard let url = url, let asset = asset ,let outputPath: String = self.fetchVideoPath(url: url) else { return }
+        let relativePath: String = TWMultiFileManager.copyVideoFile(atPath: outputPath, dirPathName: Macro.dirPathName)
+        // 创建上传资源对象
+        let fileSource: TWMultiUploadFileSource = TWMultiUploadFileSource(
+            configure: self.configure,
+            filePath: relativePath,
+            fileType: .video,
+            localIdentifier: asset.localIdentifier
+        )
+        // 📢 上传前需要从服务端获取每个分片的上传到亚马逊 url ，执行上传
+        // fileSource.setFileFragmentRequestUrls([])
+        
+        uploadFileManager.uploadFileSource(fileSource)
+    }
 
     /// 视频选择按钮
     fileprivate func clickVideoViewAction(_ actionType: UploadVideoViewActionType) {
@@ -91,15 +115,6 @@ class ViewController: UIViewController {
         }
     }
     
-    func createUpload(relativePath: String, asset: PHAsset) {
-        let fileSource: TWMultiUploadFileSource = TWMultiUploadFileSource(
-            configure: self.configure,
-            filePath: relativePath,
-            fileType: .video,
-            localIdentifier: asset.localIdentifier
-        )
-        uploadFileManager.uploadFileSource(fileSource)
-    }
 }
 
 // MARK: - UI
@@ -132,8 +147,8 @@ extension ViewController {
     
     @objc fileprivate func clickAction(_ btn: UIButton) {
         switch btn.tag {
-        case 1:
-            selectPhotoAction()
+        case 2:
+            uploadVideoAction()
         default:
             selectPhotoAction()
         }
@@ -182,6 +197,8 @@ extension ViewController {
         self.requestVideoURL(asset: asset) { [weak self] (urlasset, url) in
             guard let self = self else { return }
             print("success....")
+            self.url = url
+            self.asset = asset
             self.uploadVideoView.play(videoUrl: url)
         } failure: { (info) in
             print("fail....")
