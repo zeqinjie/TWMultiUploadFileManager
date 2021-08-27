@@ -22,7 +22,7 @@
 ### 功能
 封装了对文件分片处理，以及上传功能
 	
-- 具体功能 ☑️
+- `具体功能`  ☑️
 	- maxConcurrentOperationCount：上传线程并发个数（默认3 ）
 	- maxSize：文件大小限制（默认2GB ） 
 	- perSlicedSize：每个分片大小（默认5M）
@@ -30,10 +30,13 @@
 	- timeoutInterval：請求時長 （默認 120 s）
 	- headerFields：附加 header
 	- mimeType：文件上传类型 不为空 （默认 text/plain）
-- TODO ⏳
+- `TODO`  ⏳
 	- 上传文件最大时长（秒s）默认7200
 	- 最大缓冲分片数（默认100，建议不低于10，不高于100）
 	- 附加参数， 目前封装 put 请求，后续会补充 post 请求
+
+- 并发队列管理依赖 [Queuer](https://github.com/FabrizioBrancati/Queuer) 库
+	- 根据场景：自定义 `TWConcurrentOperation`  
 
 ## Example
 ### step 1
@@ -214,6 +217,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'TWMultiUploadFileManager'
 ```
+
+## Dependencies
+
+- 'Queuer', '~> 2.1.1'
 
 ## Author
 
