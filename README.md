@@ -174,7 +174,7 @@ extension ViewController: TWMultiUploadFileManagerDelegate {
 }
 ```
 ### step 4
-业务逻辑：最后资源上传完毕回调里，请求后端对上传完毕的资源文件做校验 
+业务逻辑：最后资源上传完毕后，后端对上传完毕的资源文件做校验 
 
 ### 📢 说明
 
