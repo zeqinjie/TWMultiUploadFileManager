@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
 TODO: 后续支出自己服务端上传
                        DESC
 
-  s.homepage         = 'https://github.com/zhengzeqin/TWMultiUploadFileManager'
+  s.homepage         = 'https://github.com/zeqinjie/TWMultiUploadFileManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhengzeqin' => '1875193628@qq.com' }
-  s.source           = { :git => 'https://github.com/zhengzeqin/TWMultiUploadFileManager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zeqinjie/TWMultiUploadFileManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
