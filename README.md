@@ -74,7 +74,6 @@ fileprivate func handleRequestVideoURL(asset: PHAsset)  {
 }
 ```
 
-### step 2
 对视频源文件进行切片并创建上传资源对象（文件）
 
 ```swift
@@ -128,13 +127,14 @@ fileprivate func uploadVideoAction() {
     self.fileFragments = fragments;
 }
 ```
-
-### step 3
+### step 2
 - 业务逻辑：通过后端调用 AWS3 SDK 获取资源文件分片上传的 urls, 后端配合获取上传 aws3 的 url 
 - 📢 这里也可以上传到自己服务端的 urls ,组件已封装的上传逻辑 put 请求，具体按各自业务修改即可
 
+
+### step 3
 ```swift
-/// 执行上传
+/// 执行上传到 AWS3 服务端
 uploadFileManager.uploadFileSource(fileSource)
 ```
 
