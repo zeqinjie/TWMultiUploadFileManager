@@ -16,12 +16,6 @@
 #import "TWMultiUploadFileManager.h"
 #import "TWMultiUploadFileSource.h"
 #import "TWMultiUploadHeader.h"
-#import "TWMultiFileManager.h"
-#import "TWMultiUploadConfigure.h"
-#import "TWMultiUploadFileFragment.h"
-#import "TWMultiUploadFileManager.h"
-#import "TWMultiUploadFileSource.h"
-#import "TWMultiUploadHeader.h"
 
 FOUNDATION_EXPORT double TWMultiUploadFileManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char TWMultiUploadFileManagerVersionString[];

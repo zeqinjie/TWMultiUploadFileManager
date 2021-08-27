@@ -91,7 +91,9 @@
 		29EFD1BFB53370FC89E293D797CCE6A6 /* SJScrollingTextMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 972DA2E5A7A3C6074C50979864C592A0 /* SJScrollingTextMarqueeView.m */; };
 		2AB44F31DD431AE3C899ADD1F054296A /* SJFullscreenModeStatusBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D94291F4F3000A2018F9FD7730A62B6A /* SJFullscreenModeStatusBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AC83B283A890A1F1E10CE74C366ACE5 /* UIScrollView+ListViewAutoplaySJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5AFF6AE35B636D12A318FECDDF8AF1 /* UIScrollView+ListViewAutoplaySJAdd.m */; };
+		2BBA6FE92B9A9F1E21B1200665135653 /* TWConcurrentOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F18AD416A068DB8AE0775CFAC5BA3F /* TWConcurrentOperation.swift */; };
 		2C34067A7CF1AB60724ED94662C0F677 /* SJButtonProgressSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D7991ABEDDB41E951E790B159C1B21 /* SJButtonProgressSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C6CCE04CF216EE6AEF5F81D3AF279A5 /* TWMultiUploadConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 933542CD058DEDCE964802A32761D1DF /* TWMultiUploadConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C91BECE1C5E86FAB93887CAE1391466 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAE0374D36BBA05AFFDE81404795E64 /* Foundation.framework */; };
 		2D9F0BF15A3EE0632075812A632F8DDA /* SJTimerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF188E57F33F90EA541333E9D947BD6 /* SJTimerControl.m */; };
 		2DCD146F9342E6B706A8B2706F9567F7 /* SJClipsVideoCountDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA88DAA5EF7D8157FA39930316EB7B91 /* SJClipsVideoCountDownView.m */; };
@@ -117,23 +119,26 @@
 		378D4CB400D7C04203322C21D47A138C /* SJMediaPlaybackController.h in Headers */ = {isa = PBXBuildFile; fileRef = 278FFA45AFDC987EA3AED85D962D2410 /* SJMediaPlaybackController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37ABEE33CBCD270128097552EB8DF108 /* SJBarrageQueueControllerDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0937DC0611E1D10135354D75457EA6F9 /* SJBarrageQueueControllerDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37EDAF83377F5C4FDFEB8F043D5635FF /* SJSpeedupPlaybackPopupView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7715E337B4D7A71AB3225A4EF8503EF4 /* SJSpeedupPlaybackPopupView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		384C5AFDDE3F0C2087E33CBF1A39B700 /* TWMultiUploadHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F597172FA4F300E035E6391BCF8502A /* TWMultiUploadHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		392B6D191FDF3DED4972712691C97A13 /* TWMultiUploadFileSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A030DA764E961AB4A9C1BBD50C2DDDDE /* TWMultiUploadFileSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39D57B14399C871F2AF033BC7FDCE9BD /* SJDraggingObservationDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB368D179A468B9FF9386DF43D61B69 /* SJDraggingObservationDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39F8BE999D472ACBC3C0474509AC4D9B /* AVAsset+SJAVMediaExport.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E9D8B87D2C93D5D7CC0F78436BCD7B /* AVAsset+SJAVMediaExport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A033A40E4E93A695749C1B0576964CF /* TWMultiUploadFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE99243646F768848816CF3A61BBF295 /* TWMultiUploadFileManager.m */; };
 		3A38500710E6D02349CFE4EE0963CB41 /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844BC92BD04EB5A4C727E39C13FCD68 /* TZPhotoPreviewCell.m */; };
 		3BCD5B594DB8E6594453C0D17D2E0366 /* SJBaseVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DD576D736CBD0C81B21BA1FA7D80374 /* SJBaseVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D99E3B2D2DAFA5CDA36D2B76FE34039 /* SJVideoPlayerPresentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0890448E35F31F7FD2E383B6289D8663 /* SJVideoPlayerPresentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A5CDC488F38CD03C9576EA1DFF3E1C /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E370875D1B667F05A2BB3E69767E464 /* TZVideoPlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C44A809F0017638D42E68D07A5B3F60 /* TZVideoPlayerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E49DEBD345026C5E689ED5607D2DB5B /* TWMultiFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FAD92DA10CAF7538366619A98A96081 /* TWMultiFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E7F460B9A74C39DB11DE799AB1E2A5B /* TWMultiUploadFileManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5C73F1A9CA34463D46556425A96E07 /* TWMultiUploadFileManager-dummy.m */; };
 		3EE85DC409BBFEB4CCCE462238A3E997 /* SJSwitchVideoDefinitionControlLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 910835F87FCDCD298D037DBD527CE29D /* SJSwitchVideoDefinitionControlLayer.m */; };
 		3EF003ACBB798F4C2E212BC1729F6441 /* SJEdgeControlButtonItemAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA8795E6ABA995CB02B98076158CC24 /* SJEdgeControlButtonItemAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F31EF7FEB28930782690A6BBFE5A77F /* Queuer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B30EDA03ADACDDE7558CA23030541D /* Queuer.swift */; };
 		3F4B1AE73921062E0023D46106225C5F /* SynchronousOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0BEADA21B26DA02D290A8190662C2A /* SynchronousOperation.swift */; };
-		3F565D370FAC693E3A837BFDC1191C14 /* TWMultiUploadFileFragment.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8D531F1B26248E42D62E29A11BAE01 /* TWMultiUploadFileFragment.m */; };
 		3F6AAE20D1C343197EA3431FC16E1BA2 /* SJSpeedupPlaybackPopupViewDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B83232DE1BBEB1AA5AD3E009C3658B2D /* SJSpeedupPlaybackPopupViewDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40CDF694DB14C27913C07A33E5D101C8 /* UIViewController+SJBaseVideoPlayerExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A5787F093C2F679CC14B98923FA1B9 /* UIViewController+SJBaseVideoPlayerExtended.m */; };
 		4238F2AC17E85B9CDD6CB970EEC5C198 /* NSObject+SJObserverHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9647E162953B94D2B8FD54650AA851B3 /* NSObject+SJObserverHelper.m */; };
 		4268E348E6D5E9037A640ADC8E065009 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6F12968DB123399ECAFA26249B10C /* ConstraintMakerEditable.swift */; };
+		42D1EEE1B3D3710BC33009D0B732A0AC /* TWMultiFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05190C50E129442A72BCCFDD9614E32C /* TWMultiFileManager.m */; };
 		4319376764A23ED077418BB2A0347A7D /* SJQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF4EB35A4BF3B2ECEF87F87EFC9BD7 /* SJQueue.m */; };
 		434C0B5092A7E02372337CD9CAB5D833 /* SJSQLiteTableInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D70F12BA4F74836E681F25DF1E9CB335 /* SJSQLiteTableInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4358B0E45F49783C9C8E255A5758E173 /* SJAttributeWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BCAEAFCAEE2B468198C3E43DCB69A27 /* SJAttributeWorker.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -157,6 +162,8 @@
 		51BF826E15EE7DB1BC686A5BE55230FC /* TZLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD58F952B10B6DB48177E444288E111 /* TZLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51DCDB0ED8BD7601E23CC3C4AE801B98 /* SJVideoPlayerConfigurations.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EE3478AC8D6A45BD6160CCA0C852138 /* SJVideoPlayerConfigurations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51E69F9EFAAE41E4A23CDF9F55A8BD92 /* SJDeviceVolumeAndBrightnessManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DB37AB79E80BDAE345D386C01F688C /* SJDeviceVolumeAndBrightnessManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		537594A1881514EE30577AD6B3C9BCF8 /* TWMultiUploadFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 74900E6E17C2857BF60C8DD043199EDE /* TWMultiUploadFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		541805900F780FF0E3CF04D18952EA6B /* TWMultiUploadFileFragment.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FA1E0615FC161E7B6E9832046C1A58 /* TWMultiUploadFileFragment.m */; };
 		549E98596F43B2F82918AC5ED8875212 /* SJVideoPlayerURLAsset+SJAVMediaPlaybackAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C36C6CE652D7053AA67147091C30A2 /* SJVideoPlayerURLAsset+SJAVMediaPlaybackAdd.m */; };
 		54D1686EFA926E23C4BED5EEE7A19C08 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F358A71B6222FC76654F7FB75781828C /* ConstraintInsets.swift */; };
 		5544BDD6A14E06C7FB3A878BC3E96299 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FFC6FEB8E3E34E4F5CF8BCDD8C1113 /* ConstraintView.swift */; };
@@ -192,7 +199,6 @@
 		6733AD26D74F34C47100784EF3BBA96F /* SJMoreSettingControlLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5409893F447FF015B4AF4772EF00F4 /* SJMoreSettingControlLayer.m */; };
 		67D1E1EC5FB702D5BD37CF7F2872FAB5 /* SJControlLayerAppearManagerDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E6022BB6F8E50A2325E424C3F9C7879 /* SJControlLayerAppearManagerDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		683A73BFA5AC1D804152FBD783B8AAF4 /* TZImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 249B7AFC4D1565A78BCBFA186FFD3B40 /* TZImageCropManager.m */; };
-		68ADF71835DB1FD140EA1C0DB67669A5 /* TWMultiUploadFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1041935E71665E59BD447AA999C0A /* TWMultiUploadFileManager.m */; };
 		6965F0424FADE435515964A33046926B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E728589D30C68A2A142141763CEC770 /* AVFoundation.framework */; };
 		6A4B73B9B474C2774171B9F7C0ADF6DE /* SJPlaybackRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F68E59DF04BCC8A76CBD69E38270F8 /* SJPlaybackRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FBDFEA0BA326A17FBF4204AAF8081B7 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -241,9 +247,7 @@
 		7C0FDDF40ED978A98B29839619CD40C1 /* SJClipsResultShareItemsContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA2811B5BDCC363A266940C16D0126F /* SJClipsResultShareItemsContainerView.m */; };
 		7CC1DAF56E7D4F4EEE0F33462E1D6C38 /* TZPhotoPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = B0494AE696BAF9A43BA9200BA7800156 /* TZPhotoPickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D44D72095F9D57097D5680DD0AAB964 /* SJControlLayerSwitcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 95B171AA045D738D16035867ED5BB79D /* SJControlLayerSwitcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DC857A192BADA96E70079D84C96DA2F /* TWMultiUploadFileFragment.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F679D7A5D938E09D72D145993156DC /* TWMultiUploadFileFragment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E10D8AF2CA85E28AA6CF8A3A3A7DD94 /* SJClipsVideoRecordsControlLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBEFBA822E22D145C95535473F06CB7 /* SJClipsVideoRecordsControlLayer.m */; };
-		7E1B5C9020D42B554E874B0183694EBD /* TWMultiFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D314A26A79870F3C1B2A77F8D51783 /* TWMultiFileManager.m */; };
 		7ED12926E82C9D1DE457504DA75B80A9 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3911AC9DD17CDBB4B314C43E3B0890A1 /* LayoutConstraintItem.swift */; };
 		7F03FCE31ECA93D5A38C22F7E21FFE49 /* SJLoadingViewDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0617CC2474219CA7A077B677E3B609C5 /* SJLoadingViewDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F85AC3DFAA0C5ACE3ECFB2C8AEA7334 /* SJFloatSmallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B2CD7F1BF157E4D92D406C7D3BCF6E /* SJFloatSmallViewController.m */; };
@@ -254,7 +258,6 @@
 		851D275D3C0ED49E2968149DFCB27DF9 /* SJVideoPlayerURLAsset+SJAVMediaPlaybackAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB30149B2BD7F58A2E56F879480298D /* SJVideoPlayerURLAsset+SJAVMediaPlaybackAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AC14AB33FC6546DBCF6A563E9740A6 /* MASLayoutConstraint.m */; };
 		855BBFDB4BB833FD8EE77C5A692B9C09 /* SJClipsGIFRecordsControlLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F72BB64BED8A3E93650FCB53111DF408 /* SJClipsGIFRecordsControlLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		866D79FF03278E9B2C23CCEFD5057930 /* TWConcurrentOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19D7199435608828984A7FC8E0D8FFA /* TWConcurrentOperation.swift */; };
 		8740ED98FCEA86CEDADC03D979B7BEB5 /* SJVideoPlayerPresentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CBA40D9424CCDB422076942E5EE14A /* SJVideoPlayerPresentView.m */; };
 		8895BF7E74CA5160111741BCD9C130BE /* Semaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDA5554E3E4CE122B81DB1EAD820780 /* Semaphore.swift */; };
 		898CBFEC421B46774EB7EE5DB7B0B0DD /* SJBaseVideoPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FFF42B346E93E28CD25F93A3761B3E9 /* SJBaseVideoPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -294,9 +297,9 @@
 		9D003D912E5B0555E3F42B08C3CD77BC /* SJPrompt.h in Headers */ = {isa = PBXBuildFile; fileRef = 568F69137E18313CED06A080F0C1643D /* SJPrompt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D51F95F813A47E6663371840BE1F9E0 /* SJScrollingTextMarqueeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA28DF3240C58A4BBFB90D5C7B875D3 /* SJScrollingTextMarqueeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 83D60C23E2E819E2B7DD73AC178BA802 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DCE06B7A04F8B5BE61C29F8F3E90329 /* TWMultiUploadConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 4851B55B50019D750455F96731E264A6 /* TWMultiUploadConfigure.m */; };
 		9E34732D19C6FCC4213D282FC56BE26A /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115034EBA0CF8269D5810DC72D2DFCA6 /* YYModel.framework */; };
 		9E6184458532BFF2E3E3F804C54BD0E7 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B6A682B8DBFB3AA69C311E10FBADFA /* ConstraintDescription.swift */; };
-		9E75ACB3F8B671A0460299C7D25631A6 /* TWMultiUploadFileManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38F671506C16E5980D69D52FE69DDB00 /* TWMultiUploadFileManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EE2D363A721ACFA89B5B899E1987633 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474C034B50C95FA734316C4081F6273 /* ConstraintConstantTarget.swift */; };
 		A043A6DEFDAB2203116DB0087A136533 /* SJAVMediaPlayerLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B00D30654B04A72DF0B5B07B65BEFB71 /* SJAVMediaPlayerLayerView.m */; };
 		A04D46C4C48247D004BAE5C7AD6E05A3 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF74A2E02BE94AAE84E2492871F38CC1 /* ConstraintConfig.swift */; };
@@ -320,7 +323,6 @@
 		A80D31519A02804F5FA0A8CE123E9F27 /* SJEdgeControlButtonItemAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEFBEE48E6685DBF0C4CAAEA26D6D99 /* SJEdgeControlButtonItemAdapter.m */; };
 		A86E5E11B4BB67CA8F7FF4648799619E /* UIView+TZLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC53632E831BADAB1F8A04E1B88CFE6D /* UIView+TZLayout.m */; };
 		A8D889995D337F676F9138F211CA88B3 /* SJAttributesRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = B7678C18C8ADF2D6998842F28FB34260 /* SJAttributesRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9452A6010798EA80132838F97FD678D /* TWMultiUploadFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E2CC471476EDE695873602140974A4 /* TWMultiUploadFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AADC46CF79A0F52BAA1391C03DC67F39 /* SJLoadFailedControlLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 74674372C634337070B54D061679CD36 /* SJLoadFailedControlLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB678D0FE84504544FEB3E6DA0CD5713 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAE0374D36BBA05AFFDE81404795E64 /* Foundation.framework */; };
 		ABE4F184BFFE00DB3A8C8A3E7832E6F3 /* TZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1A9E67C0021E37B42660AEB5ED6168 /* TZProgressView.m */; };
@@ -328,23 +330,19 @@
 		ACE04A1F50CF766F1DEC0785C132D2F4 /* TZGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D349F3D936CC626C70D0BFFCEEE60A /* TZGifPhotoPreviewController.m */; };
 		AD6DFDAA500B907578F7874C487C9F37 /* SJMoreSettingControlLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0F40239701D2731BC0F0C681552EA0 /* SJMoreSettingControlLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE0363B8EAB168310596159917DEE615 /* SJAVPictureInPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77C5192743F56564AF39AFCDDA3A668 /* SJAVPictureInPictureController.m */; };
-		AE0F980EDDF6DDD7D0E2193B0E8789C1 /* TWMultiUploadFileSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAC4A9343BF02D07E5D3917C416E479 /* TWMultiUploadFileSource.m */; };
 		AEBA1DF82AB8287CB2E67F1B6EFFE212 /* SJUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CF2D9CB107DAFCDA2C904C9DA4A2E95 /* SJUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0548326667B143925D1F50E88A6C9F0 /* SJClipsSaveResultToAlbumHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F0A1555A387A556ED6291991F43ACD /* SJClipsSaveResultToAlbumHandler.m */; };
 		B1640A380CFDEED791BC156A04ECF21D /* SJPlaybackHistoryControllerDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 584573B67A9737617B9A1C642E46B5C1 /* SJPlaybackHistoryControllerDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B225951C4EEC15ACDB36CEB8ED4EA916 /* TWMultiUploadFileManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4A47EE27A91ED7B18BAA88630E3849 /* TWMultiUploadFileManager-dummy.m */; };
 		B3BE7EC30D6263DD88994909E199E817 /* SJSubtitlesPromptController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B605139CC3965138C65442BADB4A53F /* SJSubtitlesPromptController.m */; };
 		B40D30B27415278ED54F6D9E1A3465F1 /* TZImageCropManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BEAD0A8540D4702A2E2FEC19365459B /* TZImageCropManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5225937A48EE478327E3243C31A78A7 /* SJPlayModel+SJPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E9458694584666E59FEDBB64CC57576 /* SJPlayModel+SJPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B536466D89EB60D996E736AC5B105F3B /* UIView+TZLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C185E43AF10BF221E28E5AA7B49E8E /* UIView+TZLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5C1D1295641FEF05B550338D206743D /* SJDeviceVolumeAndBrightnessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EAD3248A8575E62E912A137213C2A4 /* SJDeviceVolumeAndBrightnessManager.m */; };
-		B63C78A7906A36B858D69ADE4DBA70E2 /* TWQueueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A190CE43AF5470D6F6B5444100D9467A /* TWQueueManager.swift */; };
 		B643FB168913F5975AE58665168086E7 /* SJSubtitlesPromptControllerDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = E9BE31A71FE6F71DB75D8E75D614F48A /* SJSubtitlesPromptControllerDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B710C5F33C76E0EDAE8F5E6DCA0490C5 /* SJVideoPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2C4DCDF7AC816A6B926DF79D5AEEE823 /* SJVideoPlayer.bundle */; };
 		B78DA76C7CE4563A21F32E6DB0BD6621 /* SJVideoPlayerClipsParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C29D20537020E1DB275E02A5219CED5 /* SJVideoPlayerClipsParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD94DFF3E990425750B9F124B8A2E97 /* MASViewConstraint.m */; };
 		B8D6198172371972F646278EF24DAA92 /* SJControlLayerIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFC28BC275CDDCD11FEE8611621FF1D /* SJControlLayerIdentifiers.m */; };
-		B8FD60DC175E3FC90D22E11FC11894AB /* TWMultiUploadConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E7BE9B897CCC2F44888C8C22EBC0F6 /* TWMultiUploadConfigure.m */; };
 		B913D3DDA6413C6041D06E88F011731D /* SJPromptPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = 432600901E1D9E767EB400BB6A22E074 /* SJPromptPopupController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9CF09418C14E67AE2630270ADA7CD29 /* SJBarrageQueueController.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AD3DF67D335075FD887B48B0E8AB10 /* SJBarrageQueueController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC45D5CDF7CDA73C914710FE61FE4BF5 /* SJPlaybackRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6E3F7FFDF3A1F5FA0A7F8D20841C09 /* SJPlaybackRecord.m */; };
@@ -360,6 +358,7 @@
 		C0EBC088D2AEA9E85B0AD2F488F84E56 /* SJBaseVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2472EC7735C644615F5CDFD9E36C6A0D /* SJBaseVideoPlayer.m */; };
 		C1795519BA90DF68BFC1F5EE03C3077D /* SJVideoPlayerPlayStatusDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 309C1EAB586291FEBF85FE2E77372F3E /* SJVideoPlayerPlayStatusDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1C2B61E08DAD3B59BA5D82964D39C3C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DE72796938A3DBC1802E7AA3803A3 /* ConstraintRelation.swift */; };
+		C1F9366A3FB04F39D42C2C9EAE89E84A /* TWMultiUploadFileManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B474B1C7902ED16E1C88B75378A158 /* TWMultiUploadFileManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2CC078CF5B331C22625A237D1316D0F /* SJSQLite3.m in Sources */ = {isa = PBXBuildFile; fileRef = B44AE5425F22760DCD9EDE8055AC50FC /* SJSQLite3.m */; };
 		C2DE982FFE1BD6EF269B4A5E56D2AC69 /* TZImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3E62D6F2566CD54C58911CB91D3C37 /* TZImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C427C9261692513A3DC4194A871230C1 /* Queuer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B81947B96D158AFDEA3ED5DB4C859F28 /* Queuer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -371,8 +370,10 @@
 		C89096F27EB7CAE5D2E2ADB1755A9E22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAE0374D36BBA05AFFDE81404795E64 /* Foundation.framework */; };
 		C965A1087F1F253477E04345E7563786 /* SJViewControllerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A796CCC00EC3A52D03E27B31E8595747 /* SJViewControllerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C96CB3B5FC58F18BD92EB8230C424A6A /* SJEdgeControlLayerAdapters.m in Sources */ = {isa = PBXBuildFile; fileRef = E094CD7827202160D2B1349819930D76 /* SJEdgeControlLayerAdapters.m */; };
+		C97918F9FE38C0E5DED681C477F9E836 /* TWMultiUploadFileFragment.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E5904E6AA3E87A9A2EE17500B751DF2 /* TWMultiUploadFileFragment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA0FAE669FAB7067D09F7007AD838E19 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C6395F5C3B37D8F31BF2B6509AF24E /* ConstraintItem.swift */; };
 		CD24112C399D6A8C6399F020FBA3E9A9 /* SJUTRangeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BA04A8F68009B95D2A5C915F7DAA70E2 /* SJUTRangeHandler.m */; };
+		CDB39531DEC0DBF7774748F2A65A8A4D /* TWQueueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A665F096F5D16BC05E1D1A628A9D8E /* TWQueueManager.swift */; };
 		CF551AD6B63522B9CB97A1DFE384BBA1 /* SJBaseVideoPlayer+TestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4DB542DDB0C017FFCD91A3EC5F4B4 /* SJBaseVideoPlayer+TestLog.m */; };
 		CFEFEF3D87C69DDEE2574E0854EDEC0D /* SJAVMediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE633A1BF7FA574503CFD866C120BA48 /* SJAVMediaPlayer.m */; };
 		D02275005870AF7837AD6A7815329E03 /* TZImagePickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 488D3BCA4556354574AB4F2FEA3E0837 /* TZImagePickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -395,6 +396,7 @@
 		DDCA7AF899D5644CAA2DFE7EE2768951 /* SJBaseVideoPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73F393762FFB2CA1CB4C144344983D9 /* SJBaseVideoPlayer.framework */; };
 		DDDC9F6C89C5BED73F49980A977BB7E9 /* SJPlaybackHistoryController.h in Headers */ = {isa = PBXBuildFile; fileRef = C321624D97E417061D195E2E08192BFA /* SJPlaybackHistoryController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDEF734533F5EAC397498873292DF9B1 /* SJSQLiteColumnInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FDDC03E39E67F79FF6AEEFD51231E6F /* SJSQLiteColumnInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE625DFF95D318B6352A27FC300C3BF9 /* TWMultiUploadFileSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 064EAC9A571836D6D6A636CBB35679DE /* TWMultiUploadFileSource.m */; };
 		DEA6484229C16D2F889E4EAAD615A0DC /* UIView+SJAnimationAdded.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F3AB3ABE8826D4BF7216CE26812F78 /* UIView+SJAnimationAdded.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEC3E541DB551729EC407FA6566CEE54 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C282E260919039F41524DA6F81C50B /* ConstraintViewDSL.swift */; };
 		DED85CF88429EF7434356ECB4CB9FD53 /* TZImagePickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7960DF041322AB217E083247D96B6C0 /* TZImagePickerController-dummy.m */; };
@@ -409,6 +411,7 @@
 		E2E8C33EC11E74E51D2CB44C4A5FAEAE /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4826C65AAA266026F3DBEEC94F0B31F /* TZPhotoPreviewController.m */; };
 		E3619E4B8248D9439F386CC9AE2763AC /* SJFloatSmallViewControlLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D580B030AA4FDCF0FDB86EDBD8C3B3 /* SJFloatSmallViewControlLayer.m */; };
 		E3DC38F2637FE99C60A390B63E8D38A8 /* SJSQLite3+TableExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 64443486D99E1EFD161C52E44FB8F87D /* SJSQLite3+TableExtended.m */; };
+		E426B15FB781F1980CA987BC51195D31 /* TWMultiUploadHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A8403E3A90E17634BB28213301D7EFED /* TWMultiUploadHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4377B15ECDA6E61695C75A23F8951B1 /* SJSQLiteTableInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C342C5AA0775330F5032079FC85B4E /* SJSQLiteTableInfo.m */; };
 		E4AC5342EA67170024DEB92148E235F3 /* SJAVPictureInPictureController.h in Headers */ = {isa = PBXBuildFile; fileRef = 14D4F7AA50362289BB08622100E7DC53 /* SJAVPictureInPictureController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4D75224B8CAFE4EBB2D76FC51377CAF /* SJCommonProgressSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = D413C30C70D84C504F2991A79E575D40 /* SJCommonProgressSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -422,8 +425,6 @@
 		E85BBB972867783044ADCD772438150F /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F282283AFC20C6DF26FFB033BD26A0 /* ConstraintRelatableTarget.swift */; };
 		E8AFDE8D0C2B07F020DAD393C70ECE22 /* SJClipsButtonContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B0D33BCDFD817D3FD87BBCAAAB0212 /* SJClipsButtonContainerView.m */; };
 		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B8919BBCE089B0E409E57E91F14157 /* MASConstraint.m */; };
-		E91D021387ECE9262D468AF27F4BA5AD /* TWMultiFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF6DEFA61A9293898E444911A119003 /* TWMultiFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA9B95753D3335761B9284D22F16E10A /* TWMultiUploadFileSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 760F8CFA9A72C9AE48AA16F8DF072B76 /* TWMultiUploadFileSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = CBBAD0B4DEF745E4C4297F12BA9905B2 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBBC3AECA10D0CA33DF2A7D58AB4DFD0 /* SJClipsControlLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 582AFD7EBA35D99269A6BA7F4D5E889E /* SJClipsControlLayer.m */; };
 		EBF4B092A32BB80C1C6A0CB17DFA1CD4 /* SJSQLite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D0FE749C4B61C2DA766A62D974EAE4 /* SJSQLite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -434,7 +435,6 @@
 		F00804B11FA23B93F9A0EB84CB0E480C /* TZPhotoPreviewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A1BF836F2E712898E892F79CF5352376 /* TZPhotoPreviewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F099FEC74F48224B8BE12E16AD027905 /* SJClipsGIFRecordsControlLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2158BAA0DEC3010E85A1DE9C542D21 /* SJClipsGIFRecordsControlLayer.m */; };
 		F0EE1F2AF72F1262640569FC0C19EA01 /* SJAVMediaPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1476C181985FCE96CB79DDE4A4772BAE /* SJAVMediaPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F280F6444F37C829B883FA9954EBD64E /* TWMultiUploadConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 75E44EF0EBE16E8CA85E3B746D1DA7BB /* TWMultiUploadConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2C80CA24C78DF7480B3C337552D524E /* SJProgressSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3D6752C10543951BF657E61395C390 /* SJProgressSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2ECE5B3D8A2B27C21D1243981A8A768 /* CALayer+SJBaseVideoPlayerExtended.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E1F433F68AB487EDD692B2DD02247D /* CALayer+SJBaseVideoPlayerExtended.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F36262973789065D61296E4B8E2B9467 /* SJClipsGIFCountDownView.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA7DE83CEC583D0AF2890072F67E5FB /* SJClipsGIFCountDownView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -595,14 +595,18 @@
 
 /* Begin PBXFileReference section */
 		00AC23DD55DA74C3FA98DA5AED4E428A /* SJRotationManagerDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJRotationManagerDefines.h; path = SJBaseVideoPlayer/Common/Interfaces/SJRotationManagerDefines.h; sourceTree = "<group>"; };
+		00FA1E0615FC161E7B6E9832046C1A58 /* TWMultiUploadFileFragment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWMultiUploadFileFragment.m; path = TWMultiUploadFileManager/Classes/TWMultiUpload/TWMultiUploadFileFragment.m; sourceTree = "<group>"; };
 		011CBD1A85DA49B5B1641F417C1F2126 /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+TZImagePicker.m"; path = "TZImagePickerController/TZImagePickerController/NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
 		0197070E875C6AA7131D8AA985262EDB /* SJSQLiteTableModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJSQLiteTableModelProtocol.h; path = SJUIKit/SQLite3/Protocol/SJSQLiteTableModelProtocol.h; sourceTree = "<group>"; };
 		01EEF0DEF79448FB995FBC99117D4D39 /* SJEdgeControlLayerAdapters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJEdgeControlLayerAdapters.h; path = SJVideoPlayer/Common/Utils/Adapters/SJEdgeControlLayerAdapters.h; sourceTree = "<group>"; };
 		01F0A1555A387A556ED6291991F43ACD /* SJClipsSaveResultToAlbumHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJClipsSaveResultToAlbumHandler.m; path = SJVideoPlayer/ControlLayers/SJClipsControlLayer/Core/Model/SJClipsSaveResultToAlbumHandler.m; sourceTree = "<group>"; };
+		026F6738F417FD60E8938E545E444E90 /* TWMultiUploadFileManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TWMultiUploadFileManager.debug.xcconfig; sourceTree = "<group>"; };
 		027AC9694F0651A200441D37018B5ED8 /* Pods-TWMultiUploadFileManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWMultiUploadFileManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		04E33919437FC3D10EEDE896B2EEBBDA /* SJFloatSmallViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJFloatSmallViewController.h; path = SJBaseVideoPlayer/Common/Implements/SJFloatSmallViewController.h; sourceTree = "<group>"; };
+		05190C50E129442A72BCCFDD9614E32C /* TWMultiFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWMultiFileManager.m; path = TWMultiUploadFileManager/Classes/TWMultiUpload/TWMultiFileManager.m; sourceTree = "<group>"; };
 		0617CC2474219CA7A077B677E3B609C5 /* SJLoadingViewDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJLoadingViewDefines.h; path = SJVideoPlayer/Common/Interfaces/SJLoadingViewDefines.h; sourceTree = "<group>"; };
 		06202A0BC44A9D6C812A4A4DC08D8F6B /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		064EAC9A571836D6D6A636CBB35679DE /* TWMultiUploadFileSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWMultiUploadFileSource.m; path = TWMultiUploadFileManager/Classes/TWMultiUpload/TWMultiUploadFileSource.m; sourceTree = "<group>"; };
 		06FFC6FEB8E3E34E4F5CF8BCDD8C1113 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
 		0890448E35F31F7FD2E383B6289D8663 /* SJVideoPlayerPresentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJVideoPlayerPresentView.h; path = SJBaseVideoPlayer/Common/Implements/SJVideoPlayerPresentView.h; sourceTree = "<group>"; };
 		0920929C184E8B7AC8371575B6C3057C /* SJFlipTransitionManagerDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJFlipTransitionManagerDefines.h; path = SJBaseVideoPlayer/Common/Interfaces/SJFlipTransitionManagerDefines.h; sourceTree = "<group>"; };
@@ -611,8 +615,9 @@
 		0B29F6125E2E78BC4F1A4C9E348E8F08 /* SJUIKitAttributesDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJUIKitAttributesDefines.h; path = SJUIKit/AttributesFactory/UIKitText/SJUIKitAttributesDefines.h; sourceTree = "<group>"; };
 		0CD28E76244F1703B11094F008B6175C /* TWMultiUploadFileManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TWMultiUploadFileManager.framework; path = TWMultiUploadFileManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D969CCF36FE221B98778BB2A6AE3952 /* SJUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SJUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		0E5904E6AA3E87A9A2EE17500B751DF2 /* TWMultiUploadFileFragment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWMultiUploadFileFragment.h; path = TWMultiUploadFileManager/Classes/TWMultiUpload/TWMultiUploadFileFragment.h; sourceTree = "<group>"; };
+		0EFE47A5C0D7BE1D0268A261D750C1B5 /* TWMultiUploadFileManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TWMultiUploadFileManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0F90F66EAF3EE0D8B96A78E70CF4E4EE /* SJUTRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJUTRecorder.m; path = SJUIKit/AttributesFactory/UIKitText/SJUTRecorder.m; sourceTree = "<group>"; };
-		0FAC4A9343BF02D07E5D3917C416E479 /* TWMultiUploadFileSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TWMultiUploadFileSource.m; sourceTree = "<group>"; };
 		103B59ED2CDFBE90BD8E657E89C0BCC7 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		106016086C0EE396F4C6169C00D99026 /* Queuer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Queuer.release.xcconfig; sourceTree = "<group>"; };
 		1077C1887448EF0C7E34B272F0F78A90 /* NSString+SJBaseVideoPlayerExtended.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SJBaseVideoPlayerExtended.h"; path = "SJBaseVideoPlayer/Common/Foundation/NSString+SJBaseVideoPlayerExtended.h"; sourceTree = "<group>"; };
@@ -636,6 +641,7 @@
 		1844BC92BD04EB5A4C727E39C13FCD68 /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPreviewCell.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewCell.m; sourceTree = "<group>"; };
 		184DB992C5F6B75E00954628D0B29F5F /* SJVideoPlayerControlLayerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJVideoPlayerControlLayerProtocol.h; path = SJBaseVideoPlayer/Common/Interfaces/SJVideoPlayerControlLayerProtocol.h; sourceTree = "<group>"; };
 		19A3B63AA39AC7F6E56CB3F1114C1A79 /* SJFullscreenModeStatusBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJFullscreenModeStatusBar.m; path = SJVideoPlayer/Common/Implements/SJFullscreenModeStatusBar.m; sourceTree = "<group>"; };
+		1A5C73F1A9CA34463D46556425A96E07 /* TWMultiUploadFileManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TWMultiUploadFileManager-dummy.m"; sourceTree = "<group>"; };
 		1C2158BAA0DEC3010E85A1DE9C542D21 /* SJClipsGIFRecordsControlLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJClipsGIFRecordsControlLayer.m; path = SJVideoPlayer/ControlLayers/SJClipsControlLayer/Core/ControlLayer/SJClipsGIFRecordsControlLayer.m; sourceTree = "<group>"; };
 		1D6E27CA6CA922C83A5962CA2548823F /* TZAssetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZAssetCell.m; path = TZImagePickerController/TZImagePickerController/TZAssetCell.m; sourceTree = "<group>"; };
 		1D763F4176A9906992DCAA4B954EDBFF /* SJVideoPlayerPresentViewDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJVideoPlayerPresentViewDefines.h; path = SJBaseVideoPlayer/Common/Interfaces/SJVideoPlayerPresentViewDefines.h; sourceTree = "<group>"; };
@@ -652,7 +658,6 @@
 		226ED01FDBAB268C51306A710637B060 /* SJVideoDefinitionSwitchingInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJVideoDefinitionSwitchingInfo.h; path = SJBaseVideoPlayer/Common/Implements/SJVideoDefinitionSwitchingInfo.h; sourceTree = "<group>"; };
 		228CEC927E430D42C77C4F668C9CA39B /* TZAssetModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZAssetModel.h; path = TZImagePickerController/TZImagePickerController/TZAssetModel.h; sourceTree = "<group>"; };
 		22E1B5E35901F54A54A0B75BAB320610 /* SJPromptPopupControllerDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJPromptPopupControllerDefines.h; path = SJBaseVideoPlayer/Common/Interfaces/SJPromptPopupControllerDefines.h; sourceTree = "<group>"; };
-		22E2CC471476EDE695873602140974A4 /* TWMultiUploadFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TWMultiUploadFileManager.h; sourceTree = "<group>"; };
 		22FDB32556190B7B11726BE4F6C94EBB /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		2319077052D2072613B54A64F5D0FDB9 /* SJUTRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJUTRecorder.h; path = SJUIKit/AttributesFactory/UIKitText/SJUTRecorder.h; sourceTree = "<group>"; };
 		23A5CDC488F38CD03C9576EA1DFF3E1C /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
@@ -695,8 +700,6 @@
 		355C7A7F19459932050173FA2E0BC8A9 /* SJVideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJVideoPlayer.h; path = SJVideoPlayer/SJVideoPlayer.h; sourceTree = "<group>"; };
 		385B0B984B142942777C5E6F5FDCE71F /* SJRunLoopTaskQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJRunLoopTaskQueue.m; path = SJUIKit/Queues/SJRunLoopTaskQueue.m; sourceTree = "<group>"; };
 		389D10AA88EA14966C48FE24E2AE409C /* SJSQLite3Logger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJSQLite3Logger.h; path = SJUIKit/SQLite3/Core/SJSQLite3Logger.h; sourceTree = "<group>"; };
-		38E7BE9B897CCC2F44888C8C22EBC0F6 /* TWMultiUploadConfigure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TWMultiUploadConfigure.m; sourceTree = "<group>"; };
-		38F671506C16E5980D69D52FE69DDB00 /* TWMultiUploadFileManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TWMultiUploadFileManager-umbrella.h"; sourceTree = "<group>"; };
 		3911AC9DD17CDBB4B314C43E3B0890A1 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
 		39731D4D05C377B8C74D6C9C81698D14 /* SJVideoPlayerClipsGeneratedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJVideoPlayerClipsGeneratedResult.m; path = SJVideoPlayer/ControlLayers/SJClipsControlLayer/Core/Model/SJVideoPlayerClipsGeneratedResult.m; sourceTree = "<group>"; };
 		39769B9E00F42149CD9C521598ACC0CF /* UIScrollView+SJBaseVideoPlayerExtended.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SJBaseVideoPlayerExtended.h"; path = "SJBaseVideoPlayer/Common/UIKit/UIScrollView+SJBaseVideoPlayerExtended.h"; sourceTree = "<group>"; };
@@ -723,16 +726,15 @@
 		45B30EDA03ADACDDE7558CA23030541D /* Queuer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queuer.swift; path = Sources/Queuer/Queuer.swift; sourceTree = "<group>"; };
 		45DB8DF39CE34583C367574FF06C7157 /* SJVideoPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJVideoPlayer.m; path = SJVideoPlayer/SJVideoPlayer.m; sourceTree = "<group>"; };
 		4810BEC4B98F0ABEF545329E6A5660AD /* SJPlayModelPropertiesObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJPlayModelPropertiesObserver.m; path = SJBaseVideoPlayer/Common/Implements/SJPlayModelPropertiesObserver.m; sourceTree = "<group>"; };
+		4851B55B50019D750455F96731E264A6 /* TWMultiUploadConfigure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWMultiUploadConfigure.m; path = TWMultiUploadFileManager/Classes/TWMultiUpload/TWMultiUploadConfigure.m; sourceTree = "<group>"; };
 		4874D818C5BA6B0869DD6D9F5107A4F2 /* Pods-TWMultiUploadFileManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWMultiUploadFileManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		488D3BCA4556354574AB4F2FEA3E0837 /* TZImagePickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZImagePickerController-umbrella.h"; sourceTree = "<group>"; };
 		48E674B75255FEF176018B0AEDC1EF61 /* SJTaskQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJTaskQueue.h; path = SJUIKit/Queues/SJTaskQueue.h; sourceTree = "<group>"; };
-		48F679D7A5D938E09D72D145993156DC /* TWMultiUploadFileFragment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TWMultiUploadFileFragment.h; sourceTree = "<group>"; };
 		490883EF8B7E58971C95AD1E9C0B0274 /* SJClipsBackButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJClipsBackButton.m; path = SJVideoPlayer/ControlLayers/SJClipsControlLayer/Core/View/SJClipsBackButton.m; sourceTree = "<group>"; };
 		4935D8E437184BB1ABBAFA4576985FDC /* SJVideoPlayerRegistrar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJVideoPlayerRegistrar.h; path = SJBaseVideoPlayer/Common/Utils/SJVideoPlayerRegistrar.h; sourceTree = "<group>"; };
 		4A02D3AB3274F5E343DCB187E0AC75B9 /* SJSQLiteTableModelConstraints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJSQLiteTableModelConstraints.m; path = SJUIKit/SQLite3/Core/SJSQLiteTableModelConstraints.m; sourceTree = "<group>"; };
 		4A0AA9D33CBFC061BFD4B370E8B0FC02 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
 		4AB0A955A38D2467C28663878EB1834E /* SJVideoPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SJVideoPlayer-prefix.pch"; sourceTree = "<group>"; };
-		4AC1041935E71665E59BD447AA999C0A /* TWMultiUploadFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TWMultiUploadFileManager.m; sourceTree = "<group>"; };
 		4AD6745951A82080221B47A93BFC14A2 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		4B2B9A4EC5D5DED21846EF1F88890BE5 /* AVAsset+SJAVMediaExport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AVAsset+SJAVMediaExport.m"; path = "SJBaseVideoPlayer/AVPlayer/Core/AVAsset+SJAVMediaExport.m"; sourceTree = "<group>"; };
 		4CD58F952B10B6DB48177E444288E111 /* TZLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZLocationManager.h; path = TZImagePickerController/TZImagePickerController/TZLocationManager.h; sourceTree = "<group>"; };
@@ -746,11 +748,14 @@
 		4E739089D9208C7F2848C338E30EB2A7 /* SJScrollingTextMarqueeViewDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJScrollingTextMarqueeViewDefines.h; path = SJVideoPlayer/Common/Interfaces/SJScrollingTextMarqueeViewDefines.h; sourceTree = "<group>"; };
 		4F5052B6F95F3E41FEFA80234CB964C0 /* SJControlLayerAppearStateManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJControlLayerAppearStateManager.m; path = SJBaseVideoPlayer/Common/Implements/SJControlLayerAppearStateManager.m; sourceTree = "<group>"; };
 		4F735AF55AD7803BA04E475E93B55EC5 /* TZGifPhotoPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZGifPhotoPreviewController.h; path = TZImagePickerController/TZImagePickerController/TZGifPhotoPreviewController.h; sourceTree = "<group>"; };
+		4FAD92DA10CAF7538366619A98A96081 /* TWMultiFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWMultiFileManager.h; path = TWMultiUploadFileManager/Classes/TWMultiUpload/TWMultiFileManager.h; sourceTree = "<group>"; };
 		50B2CD7F1BF157E4D92D406C7D3BCF6E /* SJFloatSmallViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJFloatSmallViewController.m; path = SJBaseVideoPlayer/Common/Implements/SJFloatSmallViewController.m; sourceTree = "<group>"; };
 		515668D7818C191BC3D3DA9D7900612D /* SJTaskQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJTaskQueue.m; path = SJUIKit/Queues/SJTaskQueue.m; sourceTree = "<group>"; };
 		51809B0A6078AE03A6EC11D3D23780B1 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		51845CF6E4D58C52DBCC2AD7C43EA249 /* SJControlLayerSwitcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJControlLayerSwitcher.m; path = SJVideoPlayer/Common/Utils/Switcher/SJControlLayerSwitcher.m; sourceTree = "<group>"; };
+		51A665F096F5D16BC05E1D1A628A9D8E /* TWQueueManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TWQueueManager.swift; path = TWMultiUploadFileManager/Classes/TWQueueManager/TWQueueManager.swift; sourceTree = "<group>"; };
 		51AF23CB92C8BB88C0B20DB5A47901DE /* SJBaseVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SJBaseVideoPlayer.framework; path = SJBaseVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B474B1C7902ED16E1C88B75378A158 /* TWMultiUploadFileManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TWMultiUploadFileManager-umbrella.h"; sourceTree = "<group>"; };
 		52D0170FDFB9E4F602A68C316B4E9F8B /* SJFullscreenModeStatusBarDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJFullscreenModeStatusBarDefines.h; path = SJVideoPlayer/Common/Interfaces/SJFullscreenModeStatusBarDefines.h; sourceTree = "<group>"; };
 		52D580B030AA4FDCF0FDB86EDBD8C3B3 /* SJFloatSmallViewControlLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJFloatSmallViewControlLayer.m; path = SJVideoPlayer/ControlLayers/SJFloatSmallViewControlLayer/SJFloatSmallViewControlLayer.m; sourceTree = "<group>"; };
 		558597859F4EC0EA55D2EE2AE1525BE3 /* SJVideoPlayerURLAsset+SJControlAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SJVideoPlayerURLAsset+SJControlAdd.m"; path = "SJVideoPlayer/Common/Implements/SJVideoPlayerURLAsset+SJControlAdd.m"; sourceTree = "<group>"; };
@@ -795,7 +800,6 @@
 		64443486D99E1EFD161C52E44FB8F87D /* SJSQLite3+TableExtended.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SJSQLite3+TableExtended.m"; path = "SJUIKit/SQLite3/SJSQLite3+TableExtended.m"; sourceTree = "<group>"; };
 		651C9532BC09ABC46165C278BEB2C8B4 /* SJBaseVideoPlayerResourceLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJBaseVideoPlayerResourceLoader.h; path = SJBaseVideoPlayer/ResourceLoader/SJBaseVideoPlayerResourceLoader.h; sourceTree = "<group>"; };
 		65D6F12968DB123399ECAFA26249B10C /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
-		662F304659B85025DE8E7D662ED88125 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		66D11917143CCC9B5A7C5B1665355208 /* SJClipsCommonViewLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJClipsCommonViewLayer.m; path = SJVideoPlayer/ControlLayers/SJClipsControlLayer/Core/View/SJClipsCommonViewLayer.m; sourceTree = "<group>"; };
 		6701E2D862671BE8FB75D83178D1256B /* SJClipsResultsControlLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJClipsResultsControlLayer.h; path = SJVideoPlayer/ControlLayers/SJClipsControlLayer/Core/ControlLayer/SJClipsResultsControlLayer.h; sourceTree = "<group>"; };
 		673C4B10C2BC25D4C67F3BF2776E95D5 /* SJVideoPlayerLocalizedStringKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJVideoPlayerLocalizedStringKeys.h; path = SJVideoPlayer/Common/Consts/SJVideoPlayerLocalizedStringKeys.h; sourceTree = "<group>"; };
@@ -811,7 +815,6 @@
 		6E34E69DFA1585F22A6A0F94E65B4C17 /* Pods-TWMultiUploadFileManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWMultiUploadFileManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6E4A317CB0665158CA1E96979E3D3514 /* SJVideoPlayerResourceLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJVideoPlayerResourceLoader.m; path = SJVideoPlayer/ResourceLoader/SJVideoPlayerResourceLoader.m; sourceTree = "<group>"; };
 		6E6022BB6F8E50A2325E424C3F9C7879 /* SJControlLayerAppearManagerDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJControlLayerAppearManagerDefines.h; path = SJBaseVideoPlayer/Common/Interfaces/SJControlLayerAppearManagerDefines.h; sourceTree = "<group>"; };
-		6F597172FA4F300E035E6391BCF8502A /* TWMultiUploadHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TWMultiUploadHeader.h; sourceTree = "<group>"; };
 		6FB9929BEAFF688B591A92140BA427A5 /* SJVideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SJVideoPlayer.release.xcconfig; sourceTree = "<group>"; };
 		6FBDFEA0BA326A17FBF4204AAF8081B7 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		6FF8F1676515F9D36DCA17091E914DAD /* SJDraggingProgressPopupView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJDraggingProgressPopupView.m; path = SJVideoPlayer/Common/Implements/SJDraggingProgressPopupView.m; sourceTree = "<group>"; };
@@ -825,11 +828,10 @@
 		73ED99966C4ED1A97C4D014779D96119 /* SJSQLite3ColumnOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJSQLite3ColumnOrder.h; path = SJUIKit/SQLite3/Core/SJSQLite3ColumnOrder.h; sourceTree = "<group>"; };
 		74674372C634337070B54D061679CD36 /* SJLoadFailedControlLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJLoadFailedControlLayer.h; path = SJVideoPlayer/ControlLayers/SJLoadFailedControlLayer/SJLoadFailedControlLayer.h; sourceTree = "<group>"; };
 		748DA3564EB877439F8F60F943EC921C /* TZVideoCropController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZVideoCropController.m; path = TZImagePickerController/TZImagePickerController/TZVideoCropController.m; sourceTree = "<group>"; };
+		74900E6E17C2857BF60C8DD043199EDE /* TWMultiUploadFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWMultiUploadFileManager.h; path = TWMultiUploadFileManager/Classes/TWMultiUpload/TWMultiUploadFileManager.h; sourceTree = "<group>"; };
 		74F867B86E8E139AA9C5C3C204833C9A /* SJPlayModelPropertiesObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJPlayModelPropertiesObserver.h; path = SJBaseVideoPlayer/Common/Implements/SJPlayModelPropertiesObserver.h; sourceTree = "<group>"; };
 		751AACC82F3B30414A2EC0A036E604D3 /* SJProgressSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJProgressSlider.m; path = SJVideoPlayer/Common/Utils/SJProgressSlider/SJProgressSlider.m; sourceTree = "<group>"; };
 		758DBA2654340EFC9F98452D0AFFEF08 /* NSString+SJBaseVideoPlayerExtended.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SJBaseVideoPlayerExtended.m"; path = "SJBaseVideoPlayer/Common/Foundation/NSString+SJBaseVideoPlayerExtended.m"; sourceTree = "<group>"; };
-		75E44EF0EBE16E8CA85E3B746D1DA7BB /* TWMultiUploadConfigure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TWMultiUploadConfigure.h; sourceTree = "<group>"; };
-		760F8CFA9A72C9AE48AA16F8DF072B76 /* TWMultiUploadFileSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TWMultiUploadFileSource.h; sourceTree = "<group>"; };
 		763776622BDAA51E0E2FD8D93CE7CEA1 /* TZImageRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImageRequestOperation.m; path = TZImagePickerController/TZImagePickerController/TZImageRequestOperation.m; sourceTree = "<group>"; };
 		7647F1169F7AA9A64C31BE1B64A86E22 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZVideoPlayerController.m; path = TZImagePickerController/TZImagePickerController/TZVideoPlayerController.m; sourceTree = "<group>"; };
 		766D0204D0BEFD8DD961A9267264A1D7 /* TZImagePickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TZImagePickerController.modulemap; sourceTree = "<group>"; };
@@ -845,6 +847,7 @@
 		7B5A31106192F7EE08EC19440E5FFD3B /* SJSQLiteObjectInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJSQLiteObjectInfo.h; path = SJUIKit/SQLite3/Core/SJSQLiteObjectInfo.h; sourceTree = "<group>"; };
 		7C794B9034D6939DDAEA46333E95853A /* SJPresentationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJPresentationQueue.h; path = SJUIKit/Queues/SJPresentationQueue.h; sourceTree = "<group>"; };
 		7CF8BFB66FD7752C18E4BAC576A8BC46 /* SJSQLite3+FoundationExtended.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SJSQLite3+FoundationExtended.m"; path = "SJUIKit/SQLite3/SJSQLite3+FoundationExtended.m"; sourceTree = "<group>"; };
+		7D6F112769F29CD5FC304D57E8694B4F /* TWMultiUploadFileManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TWMultiUploadFileManager.release.xcconfig; sourceTree = "<group>"; };
 		7DA2811B5BDCC363A266940C16D0126F /* SJClipsResultShareItemsContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJClipsResultShareItemsContainerView.m; path = SJVideoPlayer/ControlLayers/SJClipsControlLayer/Core/View/SJClipsResultShareItemsContainerView.m; sourceTree = "<group>"; };
 		7DD313FDAFEC6817EEE081D3A08376CA /* SJDraggingObservation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJDraggingObservation.h; path = SJVideoPlayer/Common/Implements/SJDraggingObservation.h; sourceTree = "<group>"; };
 		7F477E11213FF729B0748D92994C37C3 /* SJVideoPlayerURLAsset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJVideoPlayerURLAsset.m; path = SJBaseVideoPlayer/Common/Implements/SJVideoPlayerURLAsset.m; sourceTree = "<group>"; };
@@ -875,7 +878,6 @@
 		8C24CD39465C27300817D3F93D54D397 /* SJSQLiteErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJSQLiteErrors.h; path = SJUIKit/SQLite3/Core/SJSQLiteErrors.h; sourceTree = "<group>"; };
 		8C44A809F0017638D42E68D07A5B3F60 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZVideoPlayerController.h; path = TZImagePickerController/TZImagePickerController/TZVideoPlayerController.h; sourceTree = "<group>"; };
 		8C5AFF6AE35B636D12A318FECDDF8AF1 /* UIScrollView+ListViewAutoplaySJAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+ListViewAutoplaySJAdd.m"; path = "SJBaseVideoPlayer/UIScrollView+ListViewAutoplaySJAdd.m"; sourceTree = "<group>"; };
-		8C95959BEABB9997F8A5811916065618 /* TWMultiUploadFileManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TWMultiUploadFileManager.modulemap; sourceTree = "<group>"; };
 		8CB1B3EFDC07B45D9B3205D861A72976 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		8CF39B787EDE56E4066784E09B41AD44 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
 		8D136EAA6307A4BE436FAB8EAEAC1C56 /* SJPlaybackObservation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJPlaybackObservation.h; path = SJBaseVideoPlayer/Common/Implements/SJPlaybackObservation.h; sourceTree = "<group>"; };
@@ -892,6 +894,7 @@
 		91F9847C8A173994C8BC0C6FBE46951A /* SJItemTags.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJItemTags.h; path = SJVideoPlayer/Common/Consts/SJItemTags.h; sourceTree = "<group>"; };
 		92F47D26B620BA7E907D56EC94BB5949 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		9317E4947CA2FE1B5D5999034C09CCA7 /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Then.framework; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		933542CD058DEDCE964802A32761D1DF /* TWMultiUploadConfigure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWMultiUploadConfigure.h; path = TWMultiUploadFileManager/Classes/TWMultiUpload/TWMultiUploadConfigure.h; sourceTree = "<group>"; };
 		93BF9E6F1A45BFD96A51E0B534D1D9E5 /* SJVideoPlayerControlMaskView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJVideoPlayerControlMaskView.h; path = SJVideoPlayer/Common/Utils/SJVideoPlayerControlMaskView.h; sourceTree = "<group>"; };
 		947F64D975C3F8FD55935EED456B8B30 /* TZProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZProgressView.h; path = TZImagePickerController/TZImagePickerController/TZProgressView.h; sourceTree = "<group>"; };
 		94E83C56775C69C8C3D28E1293997352 /* SJPlayerGestureControlDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJPlayerGestureControlDefines.h; path = SJBaseVideoPlayer/Common/Interfaces/SJPlayerGestureControlDefines.h; sourceTree = "<group>"; };
@@ -909,17 +912,15 @@
 		9C945A8580F94AE56174B2342CAC4D02 /* Pods-TWMultiUploadFileManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TWMultiUploadFileManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D4662CC630504D069708F62F2EA601F /* UIViewController+SJRotationPrivate_FixSafeArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SJRotationPrivate_FixSafeArea.m"; path = "SJBaseVideoPlayer/UIViewController+SJRotationPrivate_FixSafeArea.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DF6DEFA61A9293898E444911A119003 /* TWMultiFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TWMultiFileManager.h; sourceTree = "<group>"; };
-		9E735A0DDB9957589AAD81E37A3622E6 /* TWMultiUploadFileManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TWMultiUploadFileManager-prefix.pch"; sourceTree = "<group>"; };
 		9E8EFDEBDC3C08E14984D8E5579A0709 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		9EE3478AC8D6A45BD6160CCA0C852138 /* SJVideoPlayerConfigurations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJVideoPlayerConfigurations.h; path = SJVideoPlayer/Common/Configs/SJVideoPlayerConfigurations.h; sourceTree = "<group>"; };
 		9EF188E57F33F90EA541333E9D947BD6 /* SJTimerControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJTimerControl.m; path = SJBaseVideoPlayer/Common/Utils/SJTimerControl.m; sourceTree = "<group>"; };
 		9FEE5DA62BA0911ADBCC15F3C6C124B1 /* SJNotReachableControlLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJNotReachableControlLayer.h; path = SJVideoPlayer/ControlLayers/SJNotReachableControlLayer/SJNotReachableControlLayer.h; sourceTree = "<group>"; };
 		A0167AA279030B6BB7CA8A4CA1415783 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		A030DA764E961AB4A9C1BBD50C2DDDDE /* TWMultiUploadFileSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWMultiUploadFileSource.h; path = TWMultiUploadFileManager/Classes/TWMultiUpload/TWMultiUploadFileSource.h; sourceTree = "<group>"; };
 		A04247C140D52383A0A39C071C1D1297 /* TZAssetModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZAssetModel.m; path = TZImagePickerController/TZImagePickerController/TZAssetModel.m; sourceTree = "<group>"; };
 		A08F9FCA0E137CE35C9E3F583FE1E1AE /* SJFloatSmallViewControllerDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJFloatSmallViewControllerDefines.h; path = SJBaseVideoPlayer/Common/Interfaces/SJFloatSmallViewControllerDefines.h; sourceTree = "<group>"; };
 		A0F1132F912D7BBBE5C479AF2686D87D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		A190CE43AF5470D6F6B5444100D9467A /* TWQueueManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TWQueueManager.swift; sourceTree = "<group>"; };
 		A1BF836F2E712898E892F79CF5352376 /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPreviewCell.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewCell.h; sourceTree = "<group>"; };
 		A1EB2C01601600B9183E9000FD613250 /* Queuer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Queuer.framework; path = Queuer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F7EB223C405091AA079CD2E538EF4B /* SJVideoPlayerURLAsset+SJSubtitlesAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SJVideoPlayerURLAsset+SJSubtitlesAdd.m"; path = "SJBaseVideoPlayer/Common/Implements/SJVideoPlayerURLAsset+SJSubtitlesAdd.m"; sourceTree = "<group>"; };
@@ -935,12 +936,14 @@
 		A796CCC00EC3A52D03E27B31E8595747 /* SJViewControllerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJViewControllerManager.h; path = SJBaseVideoPlayer/Common/Implements/SJViewControllerManager.h; sourceTree = "<group>"; };
 		A7B5AA75CDF46EFC9A14C72CDB98979E /* SJSQLite3TableClassCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJSQLite3TableClassCache.m; path = SJUIKit/SQLite3/Core/SJSQLite3TableClassCache.m; sourceTree = "<group>"; };
 		A7C185E43AF10BF221E28E5AA7B49E8E /* UIView+TZLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TZLayout.h"; path = "TZImagePickerController/TZImagePickerController/UIView+TZLayout.h"; sourceTree = "<group>"; };
+		A8403E3A90E17634BB28213301D7EFED /* TWMultiUploadHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWMultiUploadHeader.h; path = TWMultiUploadFileManager/Classes/TWMultiUpload/TWMultiUploadHeader.h; sourceTree = "<group>"; };
 		A9103545FB55CA509925AF8B8C65356B /* SJSQLite3+FoundationExtended.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SJSQLite3+FoundationExtended.h"; path = "SJUIKit/SQLite3/SJSQLite3+FoundationExtended.h"; sourceTree = "<group>"; };
 		AAD94DFF3E990425750B9F124B8A2E97 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		ABADA34159932F1A09BFF797A541D6CD /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		ABE9816F94152888C96F85CA595FEEEE /* SJVideoPlayerRegistrar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJVideoPlayerRegistrar.m; path = SJBaseVideoPlayer/Common/Utils/SJVideoPlayerRegistrar.m; sourceTree = "<group>"; };
 		ACE47A30CC8FF4C6924752145B8E0BF8 /* Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Then.swift; path = Sources/Then/Then.swift; sourceTree = "<group>"; };
 		ACFF32EE000617CFAFBC621D9EC69251 /* SJClipsGIFCountDownView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJClipsGIFCountDownView.m; path = SJVideoPlayer/ControlLayers/SJClipsControlLayer/Core/View/SJClipsGIFCountDownView.m; sourceTree = "<group>"; };
+		AD9CE2F148892EECF39D6A6BF63111CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		ADA8795E6ABA995CB02B98076158CC24 /* SJEdgeControlButtonItemAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJEdgeControlButtonItemAdapter.h; path = SJVideoPlayer/Common/Utils/Adapters/Core/SJEdgeControlButtonItemAdapter.h; sourceTree = "<group>"; };
 		AEA20DC12EFB5F668FBE5B3C7AE049C8 /* SJSQLite3TableInfoCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJSQLite3TableInfoCache.h; path = SJUIKit/SQLite3/Core/SJSQLite3TableInfoCache.h; sourceTree = "<group>"; };
 		AEB6F9E9C6DCE5BF8F65493B409DA0AC /* SJAVMediaPlayerLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJAVMediaPlayerLoader.m; path = SJBaseVideoPlayer/AVPlayer/Core/SJAVMediaPlayerLoader.m; sourceTree = "<group>"; };
@@ -968,12 +971,12 @@
 		BAB30149B2BD7F58A2E56F879480298D /* SJVideoPlayerURLAsset+SJAVMediaPlaybackAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SJVideoPlayerURLAsset+SJAVMediaPlaybackAdd.h"; path = "SJBaseVideoPlayer/AVPlayer/Core/SJVideoPlayerURLAsset+SJAVMediaPlaybackAdd.h"; sourceTree = "<group>"; };
 		BACAB0585B30FFDDD364C72FEE1D7778 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		BB1B7A4C011494F9423A0E898ACDB399 /* Pods_TWMultiUploadFileManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TWMultiUploadFileManager_Example.framework; path = "Pods-TWMultiUploadFileManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB5F20C822CE807EF55F27691377540A /* TWMultiUploadFileManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TWMultiUploadFileManager.release.xcconfig; sourceTree = "<group>"; };
 		BB66E6D4B935BA0E15F5C6DADA145EA6 /* SJDraggingProgressPopupViewDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJDraggingProgressPopupViewDefines.h; path = SJVideoPlayer/Common/Interfaces/SJDraggingProgressPopupViewDefines.h; sourceTree = "<group>"; };
 		BC14B76A2C40142A7BBD70C084038FC2 /* SJVideoPlayerURLAsset+SJControlAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SJVideoPlayerURLAsset+SJControlAdd.h"; path = "SJVideoPlayer/Common/Implements/SJVideoPlayerURLAsset+SJControlAdd.h"; sourceTree = "<group>"; };
 		BD4405A53A9EA1CC58D900F53018AFA0 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		BDBEFBA822E22D145C95535473F06CB7 /* SJClipsVideoRecordsControlLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJClipsVideoRecordsControlLayer.m; path = SJVideoPlayer/ControlLayers/SJClipsControlLayer/Core/ControlLayer/SJClipsVideoRecordsControlLayer.m; sourceTree = "<group>"; };
 		BE2BFB65E4CF38BE86A5D0282047EFF2 /* SJVideoPlayerClipsConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJVideoPlayerClipsConfig.h; path = SJVideoPlayer/ControlLayers/SJClipsControlLayer/Core/Model/SJVideoPlayerClipsConfig.h; sourceTree = "<group>"; };
+		BE99243646F768848816CF3A61BBF295 /* TWMultiUploadFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWMultiUploadFileManager.m; path = TWMultiUploadFileManager/Classes/TWMultiUpload/TWMultiUploadFileManager.m; sourceTree = "<group>"; };
 		BF5409893F447FF015B4AF4772EF00F4 /* SJMoreSettingControlLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJMoreSettingControlLayer.m; path = SJVideoPlayer/ControlLayers/SJMoreSettingControlLayer/SJMoreSettingControlLayer.m; sourceTree = "<group>"; };
 		BF7549E515C1A3CDECFBAEAD239E3D1D /* TZImagePickerController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZImagePickerController.release.xcconfig; sourceTree = "<group>"; };
 		C0B8632ED419E7A2B43C69D65C1916C4 /* SJClipsVideoRecordsControlLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJClipsVideoRecordsControlLayer.h; path = SJVideoPlayer/ControlLayers/SJClipsControlLayer/Core/ControlLayer/SJClipsVideoRecordsControlLayer.h; sourceTree = "<group>"; };
@@ -988,6 +991,7 @@
 		C3AB190ACD7C3F0A49F75572838891D0 /* SJWatermarkView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJWatermarkView.h; path = SJBaseVideoPlayer/Common/Implements/SJWatermarkView.h; sourceTree = "<group>"; };
 		C3C36C6CE652D7053AA67147091C30A2 /* SJVideoPlayerURLAsset+SJAVMediaPlaybackAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SJVideoPlayerURLAsset+SJAVMediaPlaybackAdd.m"; path = "SJBaseVideoPlayer/AVPlayer/Core/SJVideoPlayerURLAsset+SJAVMediaPlaybackAdd.m"; sourceTree = "<group>"; };
 		C40FB9A858803FF3016CF83EB6A7BB8C /* UIViewController+SJBaseVideoPlayerExtended.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SJBaseVideoPlayerExtended.h"; path = "SJBaseVideoPlayer/Common/UIKit/UIViewController+SJBaseVideoPlayerExtended.h"; sourceTree = "<group>"; };
+		C4A35C4E75B8E9ADC04D01936285AE14 /* TWMultiUploadFileManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TWMultiUploadFileManager-Info.plist"; sourceTree = "<group>"; };
 		C567F734D82947D5B3F3669E5A29FCD3 /* SJLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJLoadingView.m; path = SJVideoPlayer/Common/Implements/SJLoadingView.m; sourceTree = "<group>"; };
 		C7E9776299CD6E30F65F687ABF1A04DA /* SJSQLite3+TableExtended.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SJSQLite3+TableExtended.h"; path = "SJUIKit/SQLite3/SJSQLite3+TableExtended.h"; sourceTree = "<group>"; };
 		C7F361279D29460346D757D9441D92A6 /* SJUTRangeHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJUTRangeHandler.h; path = SJUIKit/AttributesFactory/UIKitText/SJUTRangeHandler.h; sourceTree = "<group>"; };
@@ -995,16 +999,13 @@
 		C96A4A78FE7207AF3A1F20C739B05CEB /* SJUTUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJUTUtils.h; path = SJUIKit/AttributesFactory/UIKitText/SJUTUtils.h; sourceTree = "<group>"; };
 		C9C45D48B83B90ED6432BE4363A7D5B0 /* TZVideoCropController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZVideoCropController.h; path = TZImagePickerController/TZImagePickerController/TZVideoCropController.h; sourceTree = "<group>"; };
 		CAACD5A050CEEF966C14497B87CCA668 /* SJPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJPlayerView.m; path = SJBaseVideoPlayer/Common/Implements/SJPlayerView.m; sourceTree = "<group>"; };
-		CB4A47EE27A91ED7B18BAA88630E3849 /* TWMultiUploadFileManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TWMultiUploadFileManager-dummy.m"; sourceTree = "<group>"; };
 		CBBAD0B4DEF745E4C4297F12BA9905B2 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		CD843F0479ECE6248B06C1EC82C29790 /* SJEdgeControlLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJEdgeControlLayer.h; path = SJVideoPlayer/ControlLayers/SJEdgeControlLayer/SJEdgeControlLayer.h; sourceTree = "<group>"; };
-		CD8D531F1B26248E42D62E29A11BAE01 /* TWMultiUploadFileFragment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TWMultiUploadFileFragment.m; sourceTree = "<group>"; };
 		CE633A1BF7FA574503CFD866C120BA48 /* SJAVMediaPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJAVMediaPlayer.m; path = SJBaseVideoPlayer/AVPlayer/Core/SJAVMediaPlayer.m; sourceTree = "<group>"; };
 		D04FB08BA84BEF93032E508B4BB4405B /* Pods-TWMultiUploadFileManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TWMultiUploadFileManager_Tests.modulemap"; sourceTree = "<group>"; };
 		D0ADF2209FAE1A1BBA2CF80E1E2934B2 /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
 		D12F14418969733CCA668AB2AE5ECB39 /* Then-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-prefix.pch"; sourceTree = "<group>"; };
 		D1C4088F53F0880B5DC208829F8E04F5 /* Pods-TWMultiUploadFileManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TWMultiUploadFileManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		D2816E83831D91BD827133C10D9CBC27 /* TWMultiUploadFileManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TWMultiUploadFileManager.debug.xcconfig; sourceTree = "<group>"; };
 		D40B01CB3B387A29FF016840F49A3D52 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		D413C30C70D84C504F2991A79E575D40 /* SJCommonProgressSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJCommonProgressSlider.h; path = SJVideoPlayer/Common/Utils/SJProgressSlider/SJCommonProgressSlider.h; sourceTree = "<group>"; };
 		D42E1BF6F301CBC98538537153E5B9A7 /* SJDeviceVolumeAndBrightnessManagerDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJDeviceVolumeAndBrightnessManagerDefines.h; path = SJBaseVideoPlayer/Common/Interfaces/SJDeviceVolumeAndBrightnessManagerDefines.h; sourceTree = "<group>"; };
@@ -1043,7 +1044,6 @@
 		E062B6D1D8D698E09B2D33E7EB1D7F5A /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
 		E094CD7827202160D2B1349819930D76 /* SJEdgeControlLayerAdapters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJEdgeControlLayerAdapters.m; path = SJVideoPlayer/Common/Utils/Adapters/SJEdgeControlLayerAdapters.m; sourceTree = "<group>"; };
 		E0C282E260919039F41524DA6F81C50B /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
-		E157624BCA2FB5BF31A433010240C106 /* TWMultiUploadFileManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TWMultiUploadFileManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E26D0AD6C18C24CFA8DF76563BCFA8CE /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		E35D1FE68068F20226ABC10AB654B23F /* Pods-TWMultiUploadFileManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TWMultiUploadFileManager_Example-dummy.m"; sourceTree = "<group>"; };
 		E35F15B728B4141AD670DD94A8B23858 /* SJUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SJUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1063,10 +1063,10 @@
 		E89CAAF7F2581C6CBF66B15FA486911B /* SJBarrageItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJBarrageItem.h; path = SJBaseVideoPlayer/Common/Implements/SJBarrageItem.h; sourceTree = "<group>"; };
 		E9BE31A71FE6F71DB75D8E75D614F48A /* SJSubtitlesPromptControllerDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJSubtitlesPromptControllerDefines.h; path = SJBaseVideoPlayer/Common/Interfaces/SJSubtitlesPromptControllerDefines.h; sourceTree = "<group>"; };
 		EADE181740419CBF322273353F15909A /* SJNotReachableControlLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJNotReachableControlLayer.m; path = SJVideoPlayer/ControlLayers/SJNotReachableControlLayer/SJNotReachableControlLayer.m; sourceTree = "<group>"; };
-		EAE6EF700D0085FD174A2F93E21EE2F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		EAFFECFA96C5C6040339605D6D5088EF /* SJSQLiteCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJSQLiteCore.m; path = SJUIKit/SQLite3/Core/SJSQLiteCore.m; sourceTree = "<group>"; };
 		EBC8EC37DDD36FF1F3C1665CE2B19EF6 /* SJEdgeControlButtonItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJEdgeControlButtonItemView.m; path = SJVideoPlayer/Common/Utils/Adapters/Core/SJEdgeControlButtonItemView.m; sourceTree = "<group>"; };
 		EBD78CDDB4E05448007F3D8CA83B93D2 /* SJSQLite3+RemoveExtended.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SJSQLite3+RemoveExtended.m"; path = "SJUIKit/SQLite3/SJSQLite3+RemoveExtended.m"; sourceTree = "<group>"; };
+		ECDB2EA4879474D53C4FC815668E5B30 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		ED4173F0F0D7C81E8E05FC10563FD9B5 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
 		EE23802B9652F49C309DDF20B8F4B30E /* SJClipsResultShareItemsContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJClipsResultShareItemsContainerView.h; path = SJVideoPlayer/ControlLayers/SJClipsControlLayer/Core/View/SJClipsResultShareItemsContainerView.h; sourceTree = "<group>"; };
 		EE9A5794F46D0F00DDAC74073AD1F8C3 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
@@ -1076,7 +1076,7 @@
 		F06255CAF76BBC7832D95C5C275FDD4E /* SJBaseVideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SJBaseVideoPlayer.debug.xcconfig; sourceTree = "<group>"; };
 		F0802D94AF1563CE20A2BFC8F4054AD4 /* SJBaseVideoPlayerResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SJBaseVideoPlayerResources.bundle; path = SJBaseVideoPlayer/ResourceLoader/SJBaseVideoPlayerResources.bundle; sourceTree = "<group>"; };
 		F0DCCE305C21B11307ED4DB87C7B28D4 /* NSTimer+SJAssetAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+SJAssetAdd.m"; path = "SJBaseVideoPlayer/Common/Foundation/NSTimer+SJAssetAdd.m"; sourceTree = "<group>"; };
-		F19D7199435608828984A7FC8E0D8FFA /* TWConcurrentOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TWConcurrentOperation.swift; sourceTree = "<group>"; };
+		F0F18AD416A068DB8AE0775CFAC5BA3F /* TWConcurrentOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TWConcurrentOperation.swift; path = TWMultiUploadFileManager/Classes/TWQueueManager/TWConcurrentOperation.swift; sourceTree = "<group>"; };
 		F1D29F0DFA5C819C25FF49969057A140 /* SJRotationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJRotationManager.m; path = SJBaseVideoPlayer/Common/Implements/SJRotationManager.m; sourceTree = "<group>"; };
 		F2062C3B53C610D04449A42929284BA0 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
 		F358A71B6222FC76654F7FB75781828C /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
@@ -1090,17 +1090,17 @@
 		F4F0EE09C9E206B5FF43026E19F3C677 /* SJSubtitlesPromptController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJSubtitlesPromptController.h; path = SJBaseVideoPlayer/Common/Implements/SJSubtitlesPromptController.h; sourceTree = "<group>"; };
 		F5ABED9F090C49BC250C6EA629623166 /* SJVideoPlayerURLAssetPrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJVideoPlayerURLAssetPrefetcher.h; path = SJBaseVideoPlayer/AVPlayer/Core/SJVideoPlayerURLAssetPrefetcher.h; sourceTree = "<group>"; };
 		F6330921C3D6655E0E0B163C5E6FB11C /* SJSQLite3+QueryExtended.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SJSQLite3+QueryExtended.h"; path = "SJUIKit/SQLite3/SJSQLite3+QueryExtended.h"; sourceTree = "<group>"; };
-		F6D314A26A79870F3C1B2A77F8D51783 /* TWMultiFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TWMultiFileManager.m; sourceTree = "<group>"; };
 		F72BB64BED8A3E93650FCB53111DF408 /* SJClipsGIFRecordsControlLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJClipsGIFRecordsControlLayer.h; path = SJVideoPlayer/ControlLayers/SJClipsControlLayer/Core/ControlLayer/SJClipsGIFRecordsControlLayer.h; sourceTree = "<group>"; };
 		F777F414C76D124721334A2032947A18 /* SJUTAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJUTAttributes.h; path = SJUIKit/AttributesFactory/UIKitText/SJUTAttributes.h; sourceTree = "<group>"; };
 		F78E22454D501086D1BF3D77AEEA29B5 /* UIScrollView+SJBaseVideoPlayerExtended.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SJBaseVideoPlayerExtended.m"; path = "SJBaseVideoPlayer/Common/UIKit/UIScrollView+SJBaseVideoPlayerExtended.m"; sourceTree = "<group>"; };
+		F80C5D9694D784EE74DBA7D585D47576 /* TWMultiUploadFileManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TWMultiUploadFileManager-prefix.pch"; sourceTree = "<group>"; };
 		F8659718F05BED5DCC36395BA25F5E18 /* SJClipsResultShareItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJClipsResultShareItem.m; path = SJVideoPlayer/ControlLayers/SJClipsControlLayer/Core/Model/SJClipsResultShareItem.m; sourceTree = "<group>"; };
 		F9EAD3248A8575E62E912A137213C2A4 /* SJDeviceVolumeAndBrightnessManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJDeviceVolumeAndBrightnessManager.m; path = SJBaseVideoPlayer/Common/Implements/SJDeviceVolumeAndBrightnessManager.m; sourceTree = "<group>"; };
 		F9EB79A10F6617837A9EF578EB6F759B /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F282283AFC20C6DF26FFB033BD26A0 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		FA1169A2C1CF415C90653096D818A117 /* TWMultiUploadFileManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TWMultiUploadFileManager.modulemap; sourceTree = "<group>"; };
 		FA4BBACA32B6E1711D8FB67616F0A5C2 /* SJAttributesFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJAttributesFactory.h; path = SJUIKit/AttributesFactory/SJAttributesFactory.h; sourceTree = "<group>"; };
 		FA88DAA5EF7D8157FA39930316EB7B91 /* SJClipsVideoCountDownView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJClipsVideoCountDownView.m; path = SJVideoPlayer/ControlLayers/SJClipsControlLayer/Core/View/SJClipsVideoCountDownView.m; sourceTree = "<group>"; };
-		FB0449B4C4D844F3515CCD2579A2A214 /* TWMultiUploadFileManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TWMultiUploadFileManager-Info.plist"; sourceTree = "<group>"; };
 		FB2155425A7C88E6A904A17EE8741F27 /* SJVideoPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SJVideoPlayer.modulemap; sourceTree = "<group>"; };
 		FB8F442110C886AF2273A8FAFDB616D3 /* SJEdgeControlButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJEdgeControlButtonItem.m; path = SJVideoPlayer/Common/Utils/Adapters/Core/SJEdgeControlButtonItem.m; sourceTree = "<group>"; };
 		FBC014593276A41BA9937901F770469F /* UIView+SJBaseVideoPlayerExtended.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SJBaseVideoPlayerExtended.h"; path = "SJBaseVideoPlayer/Common/UIKit/UIView+SJBaseVideoPlayerExtended.h"; sourceTree = "<group>"; };
@@ -1303,18 +1303,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1E78CC8025D555FD88255753B21DD2A6 /* TWMultiUploadFileManager */ = {
-			isa = PBXGroup;
-			children = (
-				635EDB7F175C205C2CA860F56ACCE780 /* Pod */,
-				2C3BC9700DE1824C61F8BB8CE0D36AE1 /* Support Files */,
-				7746366C10966A86B99ADE3166ABA8FF /* TWMultiUpload */,
-				50FAC1DCCE1884D11EC2DA915BAA385C /* TWQueueManager */,
-			);
-			name = TWMultiUploadFileManager;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		27CB4E368797F300B4D03D5A0C66DEDC /* AttributesFactory */ = {
 			isa = PBXGroup;
 			children = (
@@ -1325,21 +1313,6 @@
 				590E8C9AF87CFBFAE7123294B2FDB3C1 /* UIKitText */,
 			);
 			name = AttributesFactory;
-			sourceTree = "<group>";
-		};
-		2C3BC9700DE1824C61F8BB8CE0D36AE1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8C95959BEABB9997F8A5811916065618 /* TWMultiUploadFileManager.modulemap */,
-				CB4A47EE27A91ED7B18BAA88630E3849 /* TWMultiUploadFileManager-dummy.m */,
-				FB0449B4C4D844F3515CCD2579A2A214 /* TWMultiUploadFileManager-Info.plist */,
-				9E735A0DDB9957589AAD81E37A3622E6 /* TWMultiUploadFileManager-prefix.pch */,
-				38F671506C16E5980D69D52FE69DDB00 /* TWMultiUploadFileManager-umbrella.h */,
-				D2816E83831D91BD827133C10D9CBC27 /* TWMultiUploadFileManager.debug.xcconfig */,
-				BB5F20C822CE807EF55F27691377540A /* TWMultiUploadFileManager.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TWMultiUploadFileManager";
 			sourceTree = "<group>";
 		};
 		3069450CE91C635749059AF96B6E4568 /* Resources */ = {
@@ -1511,14 +1484,19 @@
 			name = Protocol;
 			sourceTree = "<group>";
 		};
-		50FAC1DCCE1884D11EC2DA915BAA385C /* TWQueueManager */ = {
+		57C6D17DEF34EAD2A4210A4EDE2F0FEB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F19D7199435608828984A7FC8E0D8FFA /* TWConcurrentOperation.swift */,
-				A190CE43AF5470D6F6B5444100D9467A /* TWQueueManager.swift */,
+				FA1169A2C1CF415C90653096D818A117 /* TWMultiUploadFileManager.modulemap */,
+				1A5C73F1A9CA34463D46556425A96E07 /* TWMultiUploadFileManager-dummy.m */,
+				C4A35C4E75B8E9ADC04D01936285AE14 /* TWMultiUploadFileManager-Info.plist */,
+				F80C5D9694D784EE74DBA7D585D47576 /* TWMultiUploadFileManager-prefix.pch */,
+				52B474B1C7902ED16E1C88B75378A158 /* TWMultiUploadFileManager-umbrella.h */,
+				026F6738F417FD60E8938E545E444E90 /* TWMultiUploadFileManager.debug.xcconfig */,
+				7D6F112769F29CD5FC304D57E8694B4F /* TWMultiUploadFileManager.release.xcconfig */,
 			);
-			name = TWQueueManager;
-			path = TWMultiUploadFileManager/Classes/TWQueueManager;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TWMultiUploadFileManager";
 			sourceTree = "<group>";
 		};
 		590E8C9AF87CFBFAE7123294B2FDB3C1 /* UIKitText */ = {
@@ -1541,14 +1519,22 @@
 			name = UIKitText;
 			sourceTree = "<group>";
 		};
-		635EDB7F175C205C2CA860F56ACCE780 /* Pod */ = {
+		6041B3009C6AA73A108D35C3BABB5F79 /* TWMultiUpload */ = {
 			isa = PBXGroup;
 			children = (
-				EAE6EF700D0085FD174A2F93E21EE2F6 /* LICENSE */,
-				662F304659B85025DE8E7D662ED88125 /* README.md */,
-				E157624BCA2FB5BF31A433010240C106 /* TWMultiUploadFileManager.podspec */,
+				4FAD92DA10CAF7538366619A98A96081 /* TWMultiFileManager.h */,
+				05190C50E129442A72BCCFDD9614E32C /* TWMultiFileManager.m */,
+				933542CD058DEDCE964802A32761D1DF /* TWMultiUploadConfigure.h */,
+				4851B55B50019D750455F96731E264A6 /* TWMultiUploadConfigure.m */,
+				0E5904E6AA3E87A9A2EE17500B751DF2 /* TWMultiUploadFileFragment.h */,
+				00FA1E0615FC161E7B6E9832046C1A58 /* TWMultiUploadFileFragment.m */,
+				74900E6E17C2857BF60C8DD043199EDE /* TWMultiUploadFileManager.h */,
+				BE99243646F768848816CF3A61BBF295 /* TWMultiUploadFileManager.m */,
+				A030DA764E961AB4A9C1BBD50C2DDDDE /* TWMultiUploadFileSource.h */,
+				064EAC9A571836D6D6A636CBB35679DE /* TWMultiUploadFileSource.m */,
+				A8403E3A90E17634BB28213301D7EFED /* TWMultiUploadHeader.h */,
 			);
-			name = Pod;
+			name = TWMultiUpload;
 			sourceTree = "<group>";
 		};
 		675B6028B6974091335AB9B68D684CBD /* Deprecated */ = {
@@ -1659,25 +1645,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7746366C10966A86B99ADE3166ABA8FF /* TWMultiUpload */ = {
-			isa = PBXGroup;
-			children = (
-				9DF6DEFA61A9293898E444911A119003 /* TWMultiFileManager.h */,
-				F6D314A26A79870F3C1B2A77F8D51783 /* TWMultiFileManager.m */,
-				75E44EF0EBE16E8CA85E3B746D1DA7BB /* TWMultiUploadConfigure.h */,
-				38E7BE9B897CCC2F44888C8C22EBC0F6 /* TWMultiUploadConfigure.m */,
-				48F679D7A5D938E09D72D145993156DC /* TWMultiUploadFileFragment.h */,
-				CD8D531F1B26248E42D62E29A11BAE01 /* TWMultiUploadFileFragment.m */,
-				22E2CC471476EDE695873602140974A4 /* TWMultiUploadFileManager.h */,
-				4AC1041935E71665E59BD447AA999C0A /* TWMultiUploadFileManager.m */,
-				760F8CFA9A72C9AE48AA16F8DF072B76 /* TWMultiUploadFileSource.h */,
-				0FAC4A9343BF02D07E5D3917C416E479 /* TWMultiUploadFileSource.m */,
-				6F597172FA4F300E035E6391BCF8502A /* TWMultiUploadHeader.h */,
-			);
-			name = TWMultiUpload;
-			path = TWMultiUploadFileManager/Classes/TWMultiUpload;
-			sourceTree = "<group>";
-		};
 		7A747BD4803FEBA5A3FBC91E3A37AECC /* SQLite3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1701,7 +1668,7 @@
 		8B3CF0C9BBBA6FBBD26E2D3BCD99E8D8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1E78CC8025D555FD88255753B21DD2A6 /* TWMultiUploadFileManager */,
+				DDE2C31BBD2549B6FD8DEBDF18966CB0 /* TWMultiUploadFileManager */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -1805,6 +1772,15 @@
 				A2A5787F093C2F679CC14B98923FA1B9 /* UIViewController+SJBaseVideoPlayerExtended.m */,
 			);
 			name = Common;
+			sourceTree = "<group>";
+		};
+		8EC8A59908EA27060E68D41F8D9B813A /* TWQueueManager */ = {
+			isa = PBXGroup;
+			children = (
+				F0F18AD416A068DB8AE0775CFAC5BA3F /* TWConcurrentOperation.swift */,
+				51A665F096F5D16BC05E1D1A628A9D8E /* TWQueueManager.swift */,
+			);
+			name = TWQueueManager;
 			sourceTree = "<group>";
 		};
 		9341C518DF8F01F4E7F218B9287B5AAB /* Support Files */ = {
@@ -2050,6 +2026,28 @@
 				515668D7818C191BC3D3DA9D7900612D /* SJTaskQueue.m */,
 			);
 			name = Queues;
+			sourceTree = "<group>";
+		};
+		DDE2C31BBD2549B6FD8DEBDF18966CB0 /* TWMultiUploadFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				E07D26DAE3A83B038D70DAFE38E3DEBB /* Pod */,
+				57C6D17DEF34EAD2A4210A4EDE2F0FEB /* Support Files */,
+				6041B3009C6AA73A108D35C3BABB5F79 /* TWMultiUpload */,
+				8EC8A59908EA27060E68D41F8D9B813A /* TWQueueManager */,
+			);
+			name = TWMultiUploadFileManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E07D26DAE3A83B038D70DAFE38E3DEBB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AD9CE2F148892EECF39D6A6BF63111CC /* LICENSE */,
+				ECDB2EA4879474D53C4FC815668E5B30 /* README.md */,
+				0EFE47A5C0D7BE1D0268A261D750C1B5 /* TWMultiUploadFileManager.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		E1467A7F24E1C8DD469366FF135C270D /* Support Files */ = {
@@ -2395,17 +2393,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C249063827EACD2283DE4B5A9CA7E6DD /* Headers */ = {
+		D0D3E8DC574980E501A40F7730DAB841 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E91D021387ECE9262D468AF27F4BA5AD /* TWMultiFileManager.h in Headers */,
-				F280F6444F37C829B883FA9954EBD64E /* TWMultiUploadConfigure.h in Headers */,
-				7DC857A192BADA96E70079D84C96DA2F /* TWMultiUploadFileFragment.h in Headers */,
-				9E75ACB3F8B671A0460299C7D25631A6 /* TWMultiUploadFileManager-umbrella.h in Headers */,
-				A9452A6010798EA80132838F97FD678D /* TWMultiUploadFileManager.h in Headers */,
-				EA9B95753D3335761B9284D22F16E10A /* TWMultiUploadFileSource.h in Headers */,
-				384C5AFDDE3F0C2087E33CBF1A39B700 /* TWMultiUploadHeader.h in Headers */,
+				3E49DEBD345026C5E689ED5607D2DB5B /* TWMultiFileManager.h in Headers */,
+				2C6CCE04CF216EE6AEF5F81D3AF279A5 /* TWMultiUploadConfigure.h in Headers */,
+				C97918F9FE38C0E5DED681C477F9E836 /* TWMultiUploadFileFragment.h in Headers */,
+				C1F9366A3FB04F39D42C2C9EAE89E84A /* TWMultiUploadFileManager-umbrella.h in Headers */,
+				537594A1881514EE30577AD6B3C9BCF8 /* TWMultiUploadFileManager.h in Headers */,
+				392B6D191FDF3DED4972712691C97A13 /* TWMultiUploadFileSource.h in Headers */,
+				E426B15FB781F1980CA987BC51195D31 /* TWMultiUploadHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2666,8 +2664,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD5C780BC8BF4681105799853C3177EB /* Build configuration list for PBXNativeTarget "TWMultiUploadFileManager" */;
 			buildPhases = (
-				C249063827EACD2283DE4B5A9CA7E6DD /* Headers */,
-				D7364410B6B34B1CFA85C214D1ED8C1F /* Sources */,
+				D0D3E8DC574980E501A40F7730DAB841 /* Headers */,
+				D1C91828AB4697DB0E6185BB2C1CF4D7 /* Sources */,
 				24F0768FE9E73CAF758B9F8B0E1966A0 /* Frameworks */,
 				8AC8B9A9908F9AFEFA687FC47E382916 /* Resources */,
 			);
@@ -2995,18 +2993,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7364410B6B34B1CFA85C214D1ED8C1F /* Sources */ = {
+		D1C91828AB4697DB0E6185BB2C1CF4D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				866D79FF03278E9B2C23CCEFD5057930 /* TWConcurrentOperation.swift in Sources */,
-				7E1B5C9020D42B554E874B0183694EBD /* TWMultiFileManager.m in Sources */,
-				B8FD60DC175E3FC90D22E11FC11894AB /* TWMultiUploadConfigure.m in Sources */,
-				3F565D370FAC693E3A837BFDC1191C14 /* TWMultiUploadFileFragment.m in Sources */,
-				B225951C4EEC15ACDB36CEB8ED4EA916 /* TWMultiUploadFileManager-dummy.m in Sources */,
-				68ADF71835DB1FD140EA1C0DB67669A5 /* TWMultiUploadFileManager.m in Sources */,
-				AE0F980EDDF6DDD7D0E2193B0E8789C1 /* TWMultiUploadFileSource.m in Sources */,
-				B63C78A7906A36B858D69ADE4DBA70E2 /* TWQueueManager.swift in Sources */,
+				2BBA6FE92B9A9F1E21B1200665135653 /* TWConcurrentOperation.swift in Sources */,
+				42D1EEE1B3D3710BC33009D0B732A0AC /* TWMultiFileManager.m in Sources */,
+				9DCE06B7A04F8B5BE61C29F8F3E90329 /* TWMultiUploadConfigure.m in Sources */,
+				541805900F780FF0E3CF04D18952EA6B /* TWMultiUploadFileFragment.m in Sources */,
+				3E7F460B9A74C39DB11DE799AB1E2A5B /* TWMultiUploadFileManager-dummy.m in Sources */,
+				3A033A40E4E93A695749C1B0576964CF /* TWMultiUploadFileManager.m in Sources */,
+				DE625DFF95D318B6352A27FC300C3BF9 /* TWMultiUploadFileSource.m in Sources */,
+				CDB39531DEC0DBF7774748F2A65A8A4D /* TWQueueManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3587,7 +3585,7 @@
 		};
 		8A5DC6189FC7CF062C24AE6D69022A88 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2816E83831D91BD827133C10D9CBC27 /* TWMultiUploadFileManager.debug.xcconfig */;
+			baseConfigurationReference = 026F6738F417FD60E8938E545E444E90 /* TWMultiUploadFileManager.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -3741,7 +3739,7 @@
 		};
 		B851D6A2D7071BAF04A85D43F2301CE5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB5F20C822CE807EF55F27691377540A /* TWMultiUploadFileManager.release.xcconfig */;
+			baseConfigurationReference = 7D6F112769F29CD5FC304D57E8694B4F /* TWMultiUploadFileManager.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

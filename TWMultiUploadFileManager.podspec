@@ -31,7 +31,7 @@ TODO: 后续支出自己服务端上传
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'TWMultiUploadFileManager/Classes/**/*'
+#  s.source_files = 'TWMultiUploadFileManager/Classes/**/*'
   
   s.subspec 'TWMultiUpload' do |ss|
       ss.source_files = 'TWMultiUploadFileManager/Classes/TWMultiUpload/*.{swift,h,m}'
