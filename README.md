@@ -88,10 +88,6 @@ fileprivate func uploadVideoAction() {
         fileType: .video,
         localIdentifier: asset.localIdentifier
     )
-    // 📢 上传前需要从服务端获取每个分片的上传到亚马逊 url ，执行上传
-    // fileSource.setFileFragmentRequestUrls([])
-    
-    uploadFileManager.uploadFileSource(fileSource)
 }
 ```
 切片的核心逻辑
@@ -130,6 +126,7 @@ fileprivate func uploadVideoAction() {
 ### step 2
 - 业务逻辑：通过后端调用 AWS3 SDK 获取资源文件分片上传的 urls, 后端配合获取上传 aws3 的 url 
 - 📢 这里也可以上传到自己服务端的 urls ,组件已封装的上传逻辑 put 请求，具体按各自业务修改即可
+
 ```swift
 // 📢 上传前需要从服务端获取每个分片的上传到亚马逊 url ，执行上传
 fileSource.setFileFragmentRequestUrls([])
@@ -177,7 +174,7 @@ extension ViewController: TWMultiUploadFileManagerDelegate {
 }
 ```
 ### step 4
-业务逻辑：最后资源上传完毕后，后端对上传完毕的资源文件做校验 
+业务逻辑：最后资源上传完毕后，请求后端接口；对上传完毕的资源文件做校验 
 
 ### 📢 说明
 
