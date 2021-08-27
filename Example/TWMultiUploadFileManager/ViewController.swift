@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     
     fileprivate lazy var uploadFileManager: TWMultiUploadFileManager = {
         let uploadFileManager: TWMultiUploadFileManager! = TWMultiUploadFileManager(configure: self.configure)
+        uploadFileManager.delegate = self
         return uploadFileManager
     }()
     
@@ -103,8 +104,9 @@ class ViewController: UIViewController {
         )
         // 📢 上传前需要从服务端获取每个分片的上传到亚马逊 url ，执行上传
         // fileSource.setFileFragmentRequestUrls([])
-        
+        // 执行上传任务
         uploadFileManager.uploadFileSource(fileSource)
+        
     }
 
     /// 视频选择按钮
@@ -190,7 +192,7 @@ extension ViewController {
         }
     }
     
-    /// 请求资源
+    /// 获取视频资源
     fileprivate func handleRequestVideoURL(asset: PHAsset)  {
         /// loading
         print("loading....")
@@ -220,4 +222,37 @@ extension ViewController: TZImagePickerControllerDelegate {
         picker.dismiss(animated: true, completion: nil)
     }
     
+}
+
+// MARK: - TWMultiUploadFileManagerDelegate
+extension ViewController: TWMultiUploadFileManagerDelegate {
+    /// 准备开始上传
+    func prepareStart(_ manager: TWMultiUploadFileManager!, fileSource: TWMultiUploadFileSource!) {
+        
+    }
+    
+    /// 文件上传中进度
+    func uploadingFileManager(_ manager: TWMultiUploadFileManager!, progress: CGFloat) {
+        
+    }
+    
+    /// 完成上传
+    func finish(_ manager: TWMultiUploadFileManager!, fileSource: TWMultiUploadFileSource!) {
+    
+    }
+    
+    /// 上传失败
+    func fail(_ manager: TWMultiUploadFileManager!, fileSource: TWMultiUploadFileSource!, fail code: TWMultiUploadFileUploadErrorCode) {
+        
+    }
+    
+    /// 取消上传
+    func cancleUploadFileManager(_ manager: TWMultiUploadFileManager!, fileSource: TWMultiUploadFileSource!) {
+        
+    }
+    
+    /// 上传中某片文件失败
+    func failUploadingFileManager(_ manager: TWMultiUploadFileManager!, fileSource: TWMultiUploadFileSource!, fileFragment: TWMultiUploadFileFragment!, fail code: TWMultiUploadFileUploadErrorCode) {
+        
+    }
 }

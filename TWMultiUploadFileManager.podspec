@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TWMultiUploadFileManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TWMultiUploadFileManager.'
+  s.summary          = 'TWMultiUploadFileManager 为解决 aws3 分片上传的组件管理库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+现状：主要是解决端执行执行 AWS3 SDK API，客户端通过后端预签名后的 URL 直接进行文件分段上传
+TODO: 后续支出自己服务端上传
                        DESC
 
   s.homepage         = 'https://github.com/zhengzeqin/TWMultiUploadFileManager'
