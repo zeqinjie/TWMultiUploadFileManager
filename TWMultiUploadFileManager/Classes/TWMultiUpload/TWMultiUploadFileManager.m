@@ -22,7 +22,7 @@
 //空对象 赋予空字符串
 #define TWNullClass(object) (TWCheckNULL(object)?object:@"")
 
-#define WS(weakSelf) __weak __typeof(&*self)weakSelf = self;
+#define TWWS(weakSelf) __weak __typeof(&*self)weakSelf = self;
 
 #pragma mark - LifeCycle
 - (instancetype)initWithConfigure:(TWMultiUploadConfigure *)configure {
@@ -240,7 +240,7 @@
 /// 上传文件片到亚马逊服务器
 - (void)putFileFragmentToAWSServices:(TWMultiUploadFileFragment *)fileFragment {
     // 限制超过重试
-    WS(weakSelf);
+    TWWS(weakSelf);
     /// 添加进队列执行控制最大并发数
     [self.queueManager addConcurrentOperationWithName:fileFragment.fragmentName
                                        maximumRetries:self.configure.retryTimes
