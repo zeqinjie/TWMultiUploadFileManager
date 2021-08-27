@@ -25,10 +25,10 @@
 > 	- maxConcurrentOperationCount：上传线程并发个数（默认3 ） 
 > 	- maxSize：文件大小限制（默认2GB ） 
 > 	- perSlicedSize：每个分片大小（默认5M）
->  - retryTimes：每个分片上传尝试次数（默认3）
->  - timeoutInterval：請求時長 （默認 120 s）
->  - headerFields：附加 header
->  - mimeType：文件上传类型 不为空 （默认 text/plain）
+>   - retryTimes：每个分片上传尝试次数（默认3）
+>   - timeoutInterval：請求時長 （默認 120 s）
+>   - headerFields：附加 header
+>   - mimeType：文件上传类型 不为空 （默认 text/plain）
 > - todo
 > 	- 上传文件最大时长（秒s）默认7200
 > 	- 最大缓冲分片数（默认100，建议不低于10，不高于100）
@@ -186,9 +186,9 @@ extension ViewController: TWMultiUploadFileManagerDelegate {
 @property (nonatomic, assign) NSInteger maxConcurrentOperationCount;
 /// 上传文件最大限制（字节B）默认2GB
 @property (nonatomic, assign) NSUInteger maxSize;
-/// 上传文件最大时长（秒s）默认7200
+/// todo: 上传文件最大时长（秒s）默认7200
 @property (nonatomic, assign) NSUInteger maxDuration;
-/// 最大缓冲分片数（默认100，建议不低于10，不高于100）
+/// todo:  最大缓冲分片数（默认100，建议不低于10，不高于100）
 @property (nonatomic, assign) NSUInteger maxSliceds;
 /// 每个分片占用大小（字节B）默认5M
 @property (nonatomic, assign) NSUInteger perSlicedSize;
@@ -196,7 +196,7 @@ extension ViewController: TWMultiUploadFileManagerDelegate {
 @property (nonatomic, assign) NSUInteger retryTimes;
 /// 請求時長 默認 120 s
 @property (nonatomic, assign) NSUInteger timeoutInterval;
-/// todo: 附加参数, 目前封装 put 请求无添加。后续会补充 post 请求
+/// todo: 附加参数, 目前封装 put ，后续会补充 post 请求
 @property (nonatomic, strong) NSDictionary *parameters;
 /// 附加 header
 @property (nonatomic, strong) NSDictionary<NSString *, NSString *> *headerFields;
