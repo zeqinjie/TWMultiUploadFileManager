@@ -207,6 +207,44 @@ extension ViewController: TWMultiUploadFileManagerDelegate {
 /// 文件上传类型 不为空 默认 text/plain
 @property (nonatomic, strong) NSString *mimeType;
 @end
+
+@interface TWMultiUploadFileManager : NSObject
+#pragma mark - LifeCycle
+/// 设置配置
+- (instancetype)initWithConfigure:(TWMultiUploadConfigure *)configure;
+
+#pragma mark - Public Method
+/// 准备开始上传
+@property (nonatomic, copy) void (^prepareStartUploadBlock)(TWMultiUploadFileManager *manager, TWMultiUploadFileSource *fileSource);
+/// 文件上传中进度
+@property (nonatomic, copy) void (^uploadingBlock)(TWMultiUploadFileManager *manager, CGFloat progress);
+/// 完成上传
+@property (nonatomic, copy) void (^finishUploadBlock)(TWMultiUploadFileManager *manager, TWMultiUploadFileSource *fileSource);
+/// 上传失败
+@property (nonatomic, copy) void (^failUploadBlock)(TWMultiUploadFileManager *manager, TWMultiUploadFileSource *fileSource, TWMultiUploadFileUploadErrorCode failErrorCode);
+/// 取消上传
+@property (nonatomic, copy) void (^cancleUploadBlock)(TWMultiUploadFileManager *manager, TWMultiUploadFileSource *fileSource);
+/// 上传中某片文件失败
+@property (nonatomic, copy) void (^failUploadingBlock)(TWMultiUploadFileManager *manager, TWMultiUploadFileSource *fileSource, TWMultiUploadFileFragment *fileFragment, TWMultiUploadFileUploadErrorCode failErrorCode);
+
+/// 设置代理
+@property (nonatomic, weak) id<TWMultiUploadFileManagerDelegate> delegate;
+/// 上传资源
+- (void)uploadFileSource:(TWMultiUploadFileSource *)fileSource;
+
+///  继续上传失败的文件片段，注意 fileSource 是已经经过一次上传了
+- (void)continueUploadFileSource:(TWMultiUploadFileSource *)fileSource;
+
+/// 取消上传
+- (void)cancleUpload;
+
+/// 继续队列上传
+- (void)resumeUpload;
+
+/// 暂停队列上传
+- (void)pauseUpload;
+
+@end
 ```
 
 ## Installation
