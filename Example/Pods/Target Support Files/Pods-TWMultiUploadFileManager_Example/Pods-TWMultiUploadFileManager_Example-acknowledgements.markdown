@@ -146,7 +146,7 @@ THE SOFTWARE.
 
 ## TWMultiUploadFileManager
 
-Copyright (c) 2021 zhengzeqin <zhengzeqin@addcn.com>
+Copyright (c) 2021 zhengzeqin <zeqinjie@qq.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
